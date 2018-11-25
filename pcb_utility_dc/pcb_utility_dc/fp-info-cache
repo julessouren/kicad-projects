@@ -1,4 +1,4 @@
-15083946103337227
+15085489290439716
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -5909,6 +5909,13 @@ tag connect programming header pogo pins
 14
 Connectors_Jacks_DC
 Jack_DC
+$KICAD_MYGITHUBDATASHEETS$\Connectors_Jacks_DC\A-2237.pdf
+
+0
+3
+3
+Connectors_Jacks_DC
+Jack_DC_Mirrored
 $KICAD_MYGITHUBDATASHEETS$\Connectors_Jacks_DC\A-2237.pdf
 
 0
