@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pcb_utility_dc-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5BFAD889
 P 5700 4000
 F 0 "J1" H 5700 4210 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 5700 4300 50  0000 C CNN
-F 2 "Connectors_Jacks_DC:Jack_DC" H 5750 3960 50  0001 C CNN
+F 2 "Connectors_Jacks_DC:Jack_DC_Mirrored" H 5750 3960 50  0001 C CNN
 F 3 "~" H 5750 3960 50  0001 C CNN
 	1    5700 4000
 	1    0    0    1   
