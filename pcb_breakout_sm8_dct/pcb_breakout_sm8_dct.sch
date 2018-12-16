@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pcb_breakout_sm8_dct-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -35,4 +36,52 @@ F 3 "~" H 5650 4950 50  0001 C CNN
 	1    5650 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5450 4200 5350 4200
+Wire Wire Line
+	5350 4200 5350 4850
+Wire Wire Line
+	5350 4850 5450 4850
+Wire Wire Line
+	5450 4300 5250 4300
+Wire Wire Line
+	5250 4300 5250 4950
+Wire Wire Line
+	5250 4950 5450 4950
+Wire Wire Line
+	5450 4400 5150 4400
+Wire Wire Line
+	5150 4400 5150 5050
+Wire Wire Line
+	5150 5050 5450 5050
+Wire Wire Line
+	5450 4500 5050 4500
+Wire Wire Line
+	5050 4500 5050 5150
+Wire Wire Line
+	5050 5150 5450 5150
+Wire Wire Line
+	5950 4200 6050 4200
+Wire Wire Line
+	6050 4200 6050 4850
+Wire Wire Line
+	6050 4850 5950 4850
+Wire Wire Line
+	5950 4300 6150 4300
+Wire Wire Line
+	6150 4300 6150 4950
+Wire Wire Line
+	6150 4950 5950 4950
+Wire Wire Line
+	5950 4400 6250 4400
+Wire Wire Line
+	6250 5050 5950 5050
+Wire Wire Line
+	6250 4400 6250 5050
+Wire Wire Line
+	5950 4500 6350 4500
+Wire Wire Line
+	6350 4500 6350 5150
+Wire Wire Line
+	6350 5150 5950 5150
 $EndSCHEMATC
