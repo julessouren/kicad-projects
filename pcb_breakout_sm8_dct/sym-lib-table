@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name pcb_breakout_sm8_dct-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb_breakout_sm8_dct-rescue.lib)(options "")(descr ""))
 )
