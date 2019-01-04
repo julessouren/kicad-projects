@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SA_CMOS_Logic_ON_Semi_NL37WZ14USG
+#
+DEF SA_CMOS_Logic_ON_Semi_NL37WZ14USG U 0 40 Y Y 4 L N
+F0 "U" 50 150 39 H V L CNB
+F1 "SA_CMOS_Logic_ON_Semi_NL37WZ14USG" 50 200 20 H V L CNB
+F2 "" 0 100 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+T 0 0 -75 20 0 4 1 GND Normal 0 C C
+T 0 0 75 20 0 4 1 VCC Normal 0 C C
+S -100 100 100 -100 4 1 0 f
+P 3 1 0 0 -75 -50 -75 50 -25 50 N
+P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 1 0 0 -100 -50 -25 -50 -25 50 0 50 N
+P 3 2 0 0 -75 -50 -75 50 -25 50 N
+P 4 2 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 2 0 0 -100 -50 -25 -50 -25 50 0 50 N
+P 3 3 0 0 -75 -50 -75 50 -25 50 N
+P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 3 0 0 -100 -50 -25 -50 -25 50 0 50 N
+X ~ 1 -300 0 150 R 20 50 1 0 I
+X ~ 7 300 0 150 L 20 50 1 0 O I
+X ~ 3 -300 0 150 R 20 50 2 0 I
+X ~ 5 300 0 150 L 20 50 2 0 O I
+X ~ 2 300 0 150 L 20 50 3 0 O I
+X ~ 6 -300 0 150 R 20 50 3 0 I
+X ~ 4 0 -150 50 U 20 20 4 0 W
+X ~ 8 0 150 50 D 20 20 4 0 W
+ENDDRAW
+ENDDEF
+#
+# SA_Connectors_PinHeader_1x04_P2.54mm_Vertical_Bottom
+#
+DEF SA_Connectors_PinHeader_1x04_P2.54mm_Vertical_Bottom J 0 40 Y N 1 F N
+F0 "J" 0 100 39 H V C CNB
+F1 "SA_Connectors_PinHeader_1x04_P2.54mm_Vertical_Bottom" 0 -400 20 H V C CNN
+F2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x04_P2.54mm_Vertical_Bottom" 0 -450 20 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -350 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 -200 -200 150 R 50 50 1 1 P
+X Pin_4 4 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
