@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom
+#
+DEF SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom J 0 40 Y N 1 F N
+F0 "J" 0 100 39 H V C CNB
+F1 "SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -300 20 H V C CNN
+F2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -350 20 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -250 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SA_Transistor_BJT_ON_Semi_MBT3946DW1T1G
+#
+DEF SA_Transistor_BJT_ON_Semi_MBT3946DW1T1G Q 0 0 Y N 2 L N
+F0 "Q" -100 100 39 H V C CNB
+F1 "SA_Transistor_BJT_ON_Semi_MBT3946DW1T1G" -100 150 20 H V C CNB
+F2 "SA_Transistors_BJT_SMD:ON_Semi_MBT3946DW1T1G_SOT-363_SC-70-6_SC-80" 0 0 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 0 -100 0 N
+P 2 1 1 0 25 25 100 100 N
+P 3 1 1 0 25 -25 100 -100 100 -100 N
+P 3 1 1 20 25 75 25 -75 25 -75 N
+P 5 1 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+P 2 2 1 0 25 25 100 100 N
+P 3 2 1 0 25 -25 100 -100 100 -100 N
+P 3 2 1 20 25 75 25 -75 25 -75 N
+P 5 2 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X E1 1 100 -200 100 U 20 50 1 1 P
+X B1 2 -200 0 100 R 20 50 1 1 I
+X C1 6 100 200 100 D 20 50 1 1 P
+X C2 3 100 200 100 D 20 50 2 1 P
+X E2 4 100 -200 100 U 20 50 2 1 P
+X B2 5 -200 0 100 R 20 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
