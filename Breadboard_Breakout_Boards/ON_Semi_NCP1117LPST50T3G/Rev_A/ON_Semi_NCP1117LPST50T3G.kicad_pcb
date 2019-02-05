@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 13)
-    (tracks 5)
+    (tracks 8)
     (zones 0)
     (modules 2)
     (nets 4)
@@ -58,7 +58,6 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.0508)
-    (solder_mask_min_width 0.0508)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -241,9 +240,12 @@
   )
 
   (segment (start 157.085 88.505) (end 156.845 88.265) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 159.283 88.505) (end 157.085 88.505) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 157.085 93.105) (end 156.845 93.345) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 159.283 93.105) (end 157.085 93.105) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 157.795 88.265) (end 156.845 88.265) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 159.283 88.505) (end 158.035 88.505) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 158.035 88.505) (end 157.795 88.265) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 157.875 93.345) (end 156.845 93.345) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 159.283 93.105) (end 158.115 93.105) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 158.115 93.105) (end 157.875 93.345) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 159.283 90.805) (end 156.845 90.805) (width 0.25) (layer F.Cu) (net 3))
 
 )

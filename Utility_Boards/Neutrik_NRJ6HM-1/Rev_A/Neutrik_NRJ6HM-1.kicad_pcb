@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 16)
     (tracks 6)
     (zones 0)
     (modules 6)
@@ -58,7 +58,6 @@
     (pad_size 2 2)
     (pad_drill 1.2)
     (pad_to_mask_clearance 0.051)
-    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -284,6 +283,9 @@
     )
   )
 
+  (gr_text "3.0 mm NPTH for cable ties\n1.2 mm PTH for wires" (at 154.432 106.299) (layer F.Fab)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 171.577 89.408) (end 171.323 89.408) (layer B.Mask) (width 0.2))
   (gr_line (start 170.942 88.9) (end 171.958 88.9) (layer B.Mask) (width 0.2))
   (gr_line (start 172.339 88.392) (end 170.561 88.392) (layer B.Mask) (width 0.2))
