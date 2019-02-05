@@ -1,0 +1,311 @@
+EESchema Schematic File Version 4
+LIBS:Passives-0402-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5C2D4937
+P 4850 3900
+F 0 "J1" H 4850 4300 50  0000 C CNN
+F 1 "Conn_01x08" H 4850 3400 50  0000 C CNN
+F 2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x08_P2.54mm_Vertical_Top" H 4850 3900 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SA_Device:R R1
+U 1 1 5C2D4997
+P 5650 3250
+F 0 "R1" V 5730 3250 50  0000 C CNN
+F 1 "R" V 5650 3250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R2
+U 1 1 5C2D4AB6
+P 5650 3450
+F 0 "R2" V 5730 3450 50  0000 C CNN
+F 1 "R" V 5650 3450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 3450 50  0001 C CNN
+F 3 "" H 5650 3450 50  0001 C CNN
+	1    5650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R3
+U 1 1 5C2D4AD4
+P 5650 3650
+F 0 "R3" V 5730 3650 50  0000 C CNN
+F 1 "R" V 5650 3650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R4
+U 1 1 5C2D4AF0
+P 5650 3850
+F 0 "R4" V 5730 3850 50  0000 C CNN
+F 1 "R" V 5650 3850 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 3850 50  0001 C CNN
+F 3 "" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R5
+U 1 1 5C2D4E5E
+P 5650 4050
+F 0 "R5" V 5730 4050 50  0000 C CNN
+F 1 "R" V 5650 4050 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R6
+U 1 1 5C2D4E64
+P 5650 4250
+F 0 "R6" V 5730 4250 50  0000 C CNN
+F 1 "R" V 5650 4250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R7
+U 1 1 5C2D4E6A
+P 5650 4450
+F 0 "R7" V 5730 4450 50  0000 C CNN
+F 1 "R" V 5650 4450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 4450 50  0001 C CNN
+F 3 "" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R8
+U 1 1 5C2D4E70
+P 5650 4650
+F 0 "R8" V 5730 4650 50  0000 C CNN
+F 1 "R" V 5650 4650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0402_1005M" V 5580 4650 50  0001 C CNN
+F 3 "" H 5650 4650 50  0001 C CNN
+	1    5650 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5C2D562A
+P 7350 3900
+F 0 "J2" H 7350 4300 50  0000 C CNN
+F 1 "Conn_01x08" H 7350 3400 50  0000 C CNN
+F 2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x08_P2.54mm_Vertical_Top" H 7350 3900 50  0001 C CNN
+F 3 "~" H 7350 3900 50  0001 C CNN
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+Text Label 5050 3600 0    50   ~ 0
+1
+Text Label 5050 3700 0    50   ~ 0
+2
+Text Label 5050 3800 0    50   ~ 0
+3
+Text Label 5050 3900 0    50   ~ 0
+4
+Text Label 5050 4000 0    50   ~ 0
+5
+Text Label 5050 4100 0    50   ~ 0
+6
+Text Label 5050 4200 0    50   ~ 0
+7
+Text Label 5050 4300 0    50   ~ 0
+8
+Text Label 7150 3600 2    50   ~ 0
+16
+Text Label 7150 3700 2    50   ~ 0
+15
+Text Label 7150 3800 2    50   ~ 0
+14
+Text Label 7150 3900 2    50   ~ 0
+13
+Text Label 7150 4000 2    50   ~ 0
+12
+Text Label 7150 4100 2    50   ~ 0
+11
+Text Label 7150 4200 2    50   ~ 0
+10
+Text Label 7150 4300 2    50   ~ 0
+9
+Text Label 5500 3250 2    50   ~ 0
+1
+Text Label 5500 4050 2    50   ~ 0
+5
+Text Label 5800 3250 0    50   ~ 0
+16
+Text Label 5800 4050 0    50   ~ 0
+12
+Text Label 5500 3450 2    50   ~ 0
+2
+Text Label 5500 3650 2    50   ~ 0
+3
+Text Label 5500 3850 2    50   ~ 0
+4
+Text Label 5500 4250 2    50   ~ 0
+6
+Text Label 5500 4450 2    50   ~ 0
+7
+Text Label 5500 4650 2    50   ~ 0
+8
+Text Label 5800 4650 0    50   ~ 0
+9
+Text Label 5800 4450 0    50   ~ 0
+10
+Text Label 5800 4250 0    50   ~ 0
+11
+Text Label 5800 3850 0    50   ~ 0
+13
+Text Label 5800 3650 0    50   ~ 0
+14
+Text Label 5800 3450 0    50   ~ 0
+15
+$Comp
+L SA_Device:R R9
+U 1 1 5C59F8DB
+P 6350 3250
+F 0 "R9" V 6430 3250 50  0000 C CNN
+F 1 "R" V 6350 3250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 3250 50  0001 C CNN
+F 3 "" H 6350 3250 50  0001 C CNN
+	1    6350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R10
+U 1 1 5C59F8E1
+P 6350 3450
+F 0 "R10" V 6430 3450 50  0000 C CNN
+F 1 "R" V 6350 3450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 3450 50  0001 C CNN
+F 3 "" H 6350 3450 50  0001 C CNN
+	1    6350 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R11
+U 1 1 5C59F8E7
+P 6350 3650
+F 0 "R11" V 6430 3650 50  0000 C CNN
+F 1 "R" V 6350 3650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 3650 50  0001 C CNN
+F 3 "" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R12
+U 1 1 5C59F8ED
+P 6350 3850
+F 0 "R12" V 6430 3850 50  0000 C CNN
+F 1 "R" V 6350 3850 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 3850 50  0001 C CNN
+F 3 "" H 6350 3850 50  0001 C CNN
+	1    6350 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R13
+U 1 1 5C59F8F3
+P 6350 4050
+F 0 "R13" V 6430 4050 50  0000 C CNN
+F 1 "R" V 6350 4050 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 4050 50  0001 C CNN
+F 3 "" H 6350 4050 50  0001 C CNN
+	1    6350 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R14
+U 1 1 5C59F8F9
+P 6350 4250
+F 0 "R14" V 6430 4250 50  0000 C CNN
+F 1 "R" V 6350 4250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 4250 50  0001 C CNN
+F 3 "" H 6350 4250 50  0001 C CNN
+	1    6350 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R15
+U 1 1 5C59F8FF
+P 6350 4450
+F 0 "R15" V 6430 4450 50  0000 C CNN
+F 1 "R" V 6350 4450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 4450 50  0001 C CNN
+F 3 "" H 6350 4450 50  0001 C CNN
+	1    6350 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L SA_Device:R R16
+U 1 1 5C59F905
+P 6350 4650
+F 0 "R16" V 6430 4650 50  0000 C CNN
+F 1 "R" V 6350 4650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6280 4650 50  0001 C CNN
+F 3 "" H 6350 4650 50  0001 C CNN
+	1    6350 4650
+	0    1    1    0   
+$EndComp
+Text Label 6200 3250 2    50   ~ 0
+1
+Text Label 6200 4050 2    50   ~ 0
+5
+Text Label 6500 3250 0    50   ~ 0
+16
+Text Label 6500 4050 0    50   ~ 0
+12
+Text Label 6200 3450 2    50   ~ 0
+2
+Text Label 6200 3650 2    50   ~ 0
+3
+Text Label 6200 3850 2    50   ~ 0
+4
+Text Label 6200 4250 2    50   ~ 0
+6
+Text Label 6200 4450 2    50   ~ 0
+7
+Text Label 6200 4650 2    50   ~ 0
+8
+Text Label 6500 4650 0    50   ~ 0
+9
+Text Label 6500 4450 0    50   ~ 0
+10
+Text Label 6500 4250 0    50   ~ 0
+11
+Text Label 6500 3850 0    50   ~ 0
+13
+Text Label 6500 3650 0    50   ~ 0
+14
+Text Label 6500 3450 0    50   ~ 0
+15
+$EndSCHEMATC
