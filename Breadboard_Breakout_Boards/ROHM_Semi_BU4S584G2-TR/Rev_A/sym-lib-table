@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ROHM_Semi_BU4S584G2-TR-rescue)(type Legacy)(uri ${KIPRJMOD}/ROHM_Semi_BU4S584G2-TR-rescue.lib)(options "")(descr ""))
+)

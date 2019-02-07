@@ -1,0 +1,266 @@
+EESchema Schematic File Version 4
+LIBS:PCBA_CMOS-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 1 1 5C5EC8C1
+P 3850 3600
+F 0 "U1" H 3900 3750 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3900 3800 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 3850 3600 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3900 3600 50  0001 C CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 2 1 5C5EC928
+P 4550 3600
+F 0 "U1" H 4600 3750 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 4600 3800 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 4550 3600 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 4600 3600 50  0001 C CNN
+	2    4550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 3 1 5C5EC960
+P 5250 3600
+F 0 "U1" H 5300 3750 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 5300 3800 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 5250 3600 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 5300 3600 50  0001 C CNN
+	3    5250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 4 1 5C5EC9B6
+P 4700 5800
+F 0 "U1" H 4750 5950 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 4750 6000 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 4700 5800 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 4750 5800 50  0001 C CNN
+	4    4700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 5 1 5C5EC9FC
+P 5050 4700
+F 0 "U1" H 5100 4850 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 5100 4900 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 5050 4700 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 5100 4700 50  0001 C CNN
+	5    5050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 6 1 5C5ECA44
+P 5050 5050
+F 0 "U1" H 5100 5200 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 5100 5250 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 5050 5050 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 5100 5050 50  0001 C CNN
+	6    5050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 7 1 5C5ECA94
+P 5050 5400
+F 0 "U1" H 5100 5550 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 5100 5600 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 5050 5400 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 5100 5400 50  0001 C CNN
+	7    5050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Device:R R1
+U 1 1 5C5ECADE
+P 4200 3200
+F 0 "R1" V 4280 3200 50  0000 C CNN
+F 1 "100k" V 4200 3200 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_1206_3216M" V 4130 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SA_Device:R R2
+U 1 1 5C5ECB76
+P 4200 3800
+F 0 "R2" V 4280 3800 50  0000 C CNN
+F 1 "100k" V 4200 3800 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_1206_3216M" V 4130 3800 50  0001 C CNN
+F 3 "" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3200 4900 3200
+Wire Wire Line
+	4900 3200 4900 3600
+Wire Wire Line
+	4900 3600 4850 3600
+Wire Wire Line
+	4250 3600 4200 3600
+Wire Wire Line
+	4200 3600 4200 3650
+Wire Wire Line
+	4200 3600 4150 3600
+Connection ~ 4200 3600
+Wire Wire Line
+	4050 3200 3500 3200
+Wire Wire Line
+	3500 3200 3500 3600
+Wire Wire Line
+	3500 3600 3550 3600
+Wire Wire Line
+	3500 4000 3500 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	4950 3600 4900 3600
+Connection ~ 4900 3600
+$Comp
+L SA_Device:R R3
+U 1 1 5C5ECED9
+P 4900 3000
+F 0 "R3" V 4980 3000 50  0000 C CNN
+F 1 "CLR" V 4900 3000 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_1206_3216M" V 4830 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5C5ED007
+P 4900 2650
+F 0 "D1" H 4900 2750 50  0000 C CNN
+F 1 "LED_INDICATOR" H 4900 2450 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular" H 4900 2650 50  0001 C CNN
+F 3 "~" H 4900 2650 50  0001 C CNN
+	1    4900 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 2800 4900 2850
+Wire Wire Line
+	4900 3150 4900 3200
+Connection ~ 4900 3200
+$Comp
+L SA_Power:GND #PWR04
+U 1 1 5C5ED2A7
+P 4700 5950
+F 0 "#PWR04" H 4700 5700 50  0001 C CNN
+F 1 "GND" H 4700 5800 39  0000 C CNB
+F 2 "" H 4700 5950 50  0001 C CNN
+F 3 "" H 4700 5950 50  0001 C CNN
+	1    4700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR03
+U 1 1 5C5ED2FB
+P 4700 4550
+F 0 "#PWR03" H 4700 4400 50  0001 C CNN
+F 1 "+9.0VDC" H 4700 4700 39  0000 C CNB
+F 2 "" H 4700 4550 50  0001 C CNN
+F 3 "" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4550 4700 4700
+Wire Wire Line
+	4700 5400 4750 5400
+Connection ~ 4700 5400
+Wire Wire Line
+	4700 5400 4700 5650
+Wire Wire Line
+	4750 5050 4700 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4700 5050 4700 5400
+Wire Wire Line
+	4750 4700 4700 4700
+Connection ~ 4700 4700
+Wire Wire Line
+	4700 4700 4700 5050
+NoConn ~ 5350 4700
+NoConn ~ 5350 5050
+NoConn ~ 5350 5400
+$Comp
+L SA_Power:+9.0VDC #PWR05
+U 1 1 5C5EDDD5
+P 4900 2500
+F 0 "#PWR05" H 4900 2350 50  0001 C CNN
+F 1 "+9.0VDC" H 4900 2650 39  0000 C CNB
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4000 4200 3950
+$Comp
+L SA_Connectors:PinHeader_1x04_P2.54mm_Vertical_Top J1
+U 1 1 5C5EE04E
+P 2000 4200
+F 0 "J1" H 2000 4300 39  0000 C CNB
+F 1 "PinHeader_1x04_P2.54mm_Vertical_Top" H 2000 3800 20  0000 C CNN
+F 2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x04_P2.54mm_Vertical_Top" H 2000 3750 20  0001 C CNN
+F 3 "~" H 2000 4100 50  0001 C CNN
+	1    2000 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR01
+U 1 1 5C5EE09F
+P 2250 4150
+F 0 "#PWR01" H 2250 4000 50  0001 C CNN
+F 1 "+9.0VDC" H 2250 4300 39  0000 C CNB
+F 2 "" H 2250 4150 50  0001 C CNN
+F 3 "" H 2250 4150 50  0001 C CNN
+	1    2250 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4150 2250 4200
+Wire Wire Line
+	2250 4200 2200 4200
+$Comp
+L SA_Power:GND #PWR02
+U 1 1 5C5EE3C4
+P 2250 4550
+F 0 "#PWR02" H 2250 4300 50  0001 C CNN
+F 1 "GND" H 2250 4400 39  0000 C CNB
+F 2 "" H 2250 4550 50  0001 C CNN
+F 3 "" H 2250 4550 50  0001 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4550 2250 4500
+Wire Wire Line
+	2250 4500 2200 4500
+Text Notes 1500 3700 0    50   ~ 0
+PCBA_SW provides two connections\nto the pin header
+$EndSCHEMATC

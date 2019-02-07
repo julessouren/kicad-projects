@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ROHM_Semi_BU4S584G2-TR-rescue_PinHeader_1x03_P2.54mm_Vertical_Bottom-SA_Connectors
+#
+DEF ROHM_Semi_BU4S584G2-TR-rescue_PinHeader_1x03_P2.54mm_Vertical_Bottom-SA_Connectors J 0 40 Y N 1 F N
+F0 "J" 0 200 39 H V C CNB
+F1 "ROHM_Semi_BU4S584G2-TR-rescue_PinHeader_1x03_P2.54mm_Vertical_Bottom-SA_Connectors" 0 -200 20 H V C CNN
+F2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -250 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SA_CMOS_Logic_ROHM_Semi_BU4S584G2-TR
+#
+DEF SA_CMOS_Logic_ROHM_Semi_BU4S584G2-TR U 0 40 Y Y 2 L N
+F0 "U" 50 150 39 H V L CNB
+F1 "SA_CMOS_Logic_ROHM_Semi_BU4S584G2-TR" 50 200 20 H V L CNB
+F2 "SA_CMOS_Logic_SMD:ROHM_Semi_BU4S584G2-TR_SSOP-5" 0 100 20 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+T 0 0 -75 20 0 2 1 GND Normal 0 C C
+T 0 0 75 20 0 2 1 VCC Normal 0 C C
+S -100 100 100 -100 2 1 0 f
+P 3 1 0 0 -75 -50 -75 50 -25 50 N
+P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 1 0 0 -100 -50 -25 -50 -25 50 0 50 N
+X ~ 2 -300 0 150 R 20 50 1 0 I
+X ~ 4 300 0 150 L 20 50 1 0 O I
+X ~ 3 0 -150 50 U 20 25 2 0 W
+X ~ 5 0 150 50 D 20 25 2 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library
