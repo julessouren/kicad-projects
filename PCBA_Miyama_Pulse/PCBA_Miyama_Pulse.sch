@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+LIBS:PCBA_Miyama_Pulse-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C676907
+P 4500 3050
+F 0 "SW1" H 4550 3150 50  0000 L CNN
+F 1 "DS-462" H 4500 2990 50  0000 C CNN
+F 2 "SA_Switches_THT:Miyama_DS-462" H 4500 3250 50  0001 C CNN
+F 3 "" H 4500 3250 50  0001 C CNN
+	1    4500 3050
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6850 3050 2    50   Input ~ 0
+K_+
+Text GLabel 6850 4150 2    50   Input ~ 0
+K_-
+$Comp
+L SA_Diode:ON_Semi_1N4148WS D2
+U 1 1 5C69BF08
+P 5250 3050
+F 0 "D2" H 5250 3150 39  0000 C CNB
+F 1 "ON_Semi_1N4148WS" H 5250 3200 20  0000 C CNB
+F 2 "SA_Diodes_SMD:ON_Semi_1N4148WS_SOD-323F-2" H 5250 2950 20  0001 C CNN
+F 3 "~" H 5250 3050 50  0001 C CNN
+	1    5250 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SA_Transistor_BJT:ON_Semi_MBT3946DW1T1G Q1
+U 1 1 5C69BFEC
+P 5800 3650
+F 0 "Q1" H 5700 3750 39  0000 C CNB
+F 1 "ON_Semi_MBT3946DW1T1G" H 5700 3800 20  0000 C CNB
+F 2 "SA_Transistors_BJT_SMD:ON_Semi_MBT3946DW1T1G_SOT-363_SC-70-6_SC-80" H 5800 3650 20  0001 C CNN
+F 3 "" H 5800 3650 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Transistor_BJT:ON_Semi_MBT3946DW1T1G Q1
+U 2 1 5C69C04A
+P 5400 3350
+F 0 "Q1" H 5300 3450 39  0000 C CNB
+F 1 "ON_Semi_MBT3946DW1T1G" H 5300 3500 20  0000 C CNB
+F 2 "SA_Transistors_BJT_SMD:ON_Semi_MBT3946DW1T1G_SOT-363_SC-70-6_SC-80" H 5400 3350 20  0001 C CNN
+F 3 "" H 5400 3350 50  0001 C CNN
+	2    5400 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L SA_Capacitors:Nichicon_UWT_100uF_25V C1
+U 1 1 5C69D6D7
+P 6150 3050
+F 0 "C1" V 6300 3050 39  0000 L CNB
+F 1 "Nichicon_UWT_100uF_25V" V 6350 2750 20  0000 L CNB
+F 2 "SA_Capacitors_SMD:Nichicon_UWT1E101MCL1GS_100uF_25V_6.3x7.7mm" H 6075 3050 20  0001 C CNN
+F 3 "~" H 6150 3050 50  0001 C CNN
+	1    6150 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C69D79F
+P 5000 3900
+F 0 "R2" V 5080 3900 50  0000 C CNN
+F 1 "R" V 5000 3900 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4930 3900 50  0001 C CNN
+F 3 "~" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C69D80E
+P 5500 3900
+F 0 "R3" V 5580 3900 50  0000 C CNN
+F 1 "R" V 5500 3900 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5430 3900 50  0001 C CNN
+F 3 "~" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C69D856
+P 5900 3250
+F 0 "R4" V 5980 3250 50  0000 C CNN
+F 1 "R" V 5900 3250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5830 3250 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3750 5000 3350
+Wire Wire Line
+	5000 3050 5100 3050
+Wire Wire Line
+	5200 3350 5000 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 5000 3050
+Wire Wire Line
+	5400 3050 5500 3050
+Wire Wire Line
+	5500 3050 5500 3150
+Wire Wire Line
+	5500 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 3100
+Connection ~ 5500 3050
+Wire Wire Line
+	5900 3400 5900 3450
+Wire Wire Line
+	5500 3550 5500 3650
+Wire Wire Line
+	5600 3650 5500 3650
+Connection ~ 5500 3650
+Wire Wire Line
+	5500 3650 5500 3750
+Wire Wire Line
+	5000 4050 5000 4150
+Wire Wire Line
+	5000 4150 5500 4150
+Wire Wire Line
+	5500 4150 5500 4050
+Wire Wire Line
+	5500 4150 5900 4150
+Wire Wire Line
+	5900 4150 5900 3850
+Connection ~ 5500 4150
+Wire Wire Line
+	6000 3050 5900 3050
+Connection ~ 5900 3050
+Connection ~ 5000 3050
+Connection ~ 5900 4150
+Text GLabel 4200 3050 0    50   Input ~ 0
++9VDC
+Wire Wire Line
+	4200 3050 4300 3050
+$Comp
+L Device:R R1
+U 1 1 5C6B9B07
+P 4800 3900
+F 0 "R1" V 4880 3900 50  0000 C CNN
+F 1 "R" V 4800 3900 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4730 3900 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5C6B9B99
+P 4800 3250
+F 0 "D1" H 4800 3350 50  0000 C CNN
+F 1 "LED" H 4800 3150 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular_2.54mm_Pitch" H 4800 3250 50  0001 C CNN
+F 3 "~" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3100 4800 3050
+Wire Wire Line
+	4700 3050 4800 3050
+Wire Wire Line
+	4800 3050 5000 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4800 3400 4800 3750
+Wire Wire Line
+	4800 4050 4800 4150
+Wire Wire Line
+	4800 4150 5000 4150
+Connection ~ 5000 4150
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5C6BEEB1
+P 5550 4650
+F 0 "J1" H 5550 4850 50  0000 C CNN
+F 1 "Conn_01x04" H 5550 4350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 4650 50  0001 C CNN
+F 3 "~" H 5550 4650 50  0001 C CNN
+	1    5550 4650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5750 4550 2    50   Input ~ 0
+K_+
+Text GLabel 5750 4650 2    50   Input ~ 0
+IN
+Text GLabel 5750 4750 2    50   Input ~ 0
+GND_A
+Text GLabel 5750 4850 2    50   Input ~ 0
+K_-
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C6BFD5C
+P 6350 4550
+F 0 "J2" H 6350 4650 50  0000 C CNN
+F 1 "Conn_01x02" H 6350 4350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 4550 50  0001 C CNN
+F 3 "~" H 6350 4550 50  0001 C CNN
+	1    6350 4550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6550 4550 2    50   Input ~ 0
++9VDC
+Text GLabel 6550 4650 2    50   Input ~ 0
+GND
+$Comp
+L Device:R R5
+U 1 1 5C6BFEAF
+P 6000 5450
+F 0 "R5" V 6080 5450 50  0000 C CNN
+F 1 "0R" V 6000 5450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5930 5450 50  0001 C CNN
+F 3 "~" H 6000 5450 50  0001 C CNN
+	1    6000 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 6150 5450 2    50   Input ~ 0
+GND_A
+Text GLabel 5700 5450 0    50   Input ~ 0
+GND
+Text GLabel 5700 5600 0    50   Input ~ 0
+K_-
+Wire Wire Line
+	5700 5600 5800 5600
+Wire Wire Line
+	5800 5600 5800 5450
+Wire Wire Line
+	5800 5450 5850 5450
+Wire Wire Line
+	5800 5450 5700 5450
+Connection ~ 5800 5450
+Wire Wire Line
+	6300 3050 6850 3050
+Wire Wire Line
+	5900 4150 6850 4150
+$EndSCHEMATC

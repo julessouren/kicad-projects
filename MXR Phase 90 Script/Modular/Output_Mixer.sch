@@ -1,0 +1,226 @@
+EESchema Schematic File Version 4
+LIBS:MXR Phase 90 Script-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5C748E42
+P 4900 3400
+AR Path="/5C748E42" Ref="R?"  Part="1" 
+AR Path="/5C748CE9/5C748E42" Ref="R502"  Part="1" 
+F 0 "R502" V 4980 3400 50  0000 C CNN
+F 1 "150k" V 4900 3400 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4830 3400 50  0001 C CNN
+F 3 "~" H 4900 3400 50  0001 C CNN
+	1    4900 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C748E49
+P 4900 2550
+AR Path="/5C748E49" Ref="R?"  Part="1" 
+AR Path="/5C748CE9/5C748E49" Ref="R501"  Part="1" 
+F 0 "R501" V 4980 2550 50  0000 C CNN
+F 1 "150k" V 4900 2550 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4830 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3400 5150 3400
+Wire Wire Line
+	5150 3400 5150 2550
+Wire Wire Line
+	5150 2550 5050 2550
+Text Notes 5600 3200 0    50   ~ 0
+2N4125 EBC?
+$Comp
+L SA_Transistor_BJT:ON_Semi_SMMBT3906LT1G Q?
+U 1 1 5C748E54
+P 5450 3400
+AR Path="/5C748E54" Ref="Q?"  Part="1" 
+AR Path="/5C748CE9/5C748E54" Ref="Q501"  Part="1" 
+F 0 "Q501" H 5375 3500 39  0000 C CNB
+F 1 "ON_Semi_SMMBT3906LT1G" H 5350 3550 20  0000 C CNB
+F 2 "SA_Transistors_BJT_SMD:ON_Semi_SMMBT3906LT1G_SOT-23-3" H 5450 3400 20  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 5450 3400 50  0001 L CNN
+	1    5450 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C748E5B
+P 5350 3700
+AR Path="/5C748E5B" Ref="R?"  Part="1" 
+AR Path="/5C748CE9/5C748E5B" Ref="R503"  Part="1" 
+F 0 "R503" V 5430 3700 50  0000 C CNN
+F 1 "150k" V 5350 3700 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5280 3700 50  0001 C CNN
+F 3 "~" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5550 3600 5550 3700
+Wire Wire Line
+	5550 3700 5500 3700
+Wire Wire Line
+	5200 3700 5150 3700
+Wire Wire Line
+	5150 3700 5150 3400
+Connection ~ 5150 3400
+Wire Wire Line
+	5150 3400 5250 3400
+$Comp
+L SA_Power:VREF #PWR?
+U 1 1 5C748E68
+P 5550 3050
+AR Path="/5C748E68" Ref="#PWR?"  Part="1" 
+AR Path="/5C748CE9/5C748E68" Ref="#PWR0501"  Part="1" 
+F 0 "#PWR0501" H 5550 2900 50  0001 C CNN
+F 1 "VREF" H 5550 3200 39  0000 C CNB
+F 2 "" H 5550 3050 50  0001 C CNN
+F 3 "" H 5550 3050 50  0001 C CNN
+	1    5550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3200 5550 3050
+$Comp
+L Device:R R?
+U 1 1 5C748E6F
+P 5550 3950
+AR Path="/5C748E6F" Ref="R?"  Part="1" 
+AR Path="/5C748CE9/5C748E6F" Ref="R504"  Part="1" 
+F 0 "R504" V 5630 3950 50  0000 C CNN
+F 1 "56k" V 5550 3950 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5480 3950 50  0001 C CNN
+F 3 "~" H 5550 3950 50  0001 C CNN
+	1    5550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C748E76
+P 5750 3700
+AR Path="/5C748E76" Ref="C?"  Part="1" 
+AR Path="/5C748CE9/5C748E76" Ref="C501"  Part="1" 
+F 0 "C501" H 5775 3800 50  0000 L CNN
+F 1 "47n" H 5775 3600 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 5788 3550 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3700 5550 3700
+Connection ~ 5550 3700
+Wire Wire Line
+	5550 3700 5550 3800
+$Comp
+L Device:R R?
+U 1 1 5C748E80
+P 5950 3950
+AR Path="/5C748E80" Ref="R?"  Part="1" 
+AR Path="/5C748CE9/5C748E80" Ref="R505"  Part="1" 
+F 0 "R505" V 6030 3950 50  0000 C CNN
+F 1 "150k" V 5950 3950 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5880 3950 50  0001 C CNN
+F 3 "~" H 5950 3950 50  0001 C CNN
+	1    5950 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3800 5950 3700
+Wire Wire Line
+	5950 3700 5900 3700
+$Comp
+L SA_Power:GND #PWR?
+U 1 1 5C748E89
+P 5950 4200
+AR Path="/5C748E89" Ref="#PWR?"  Part="1" 
+AR Path="/5C748CE9/5C748E89" Ref="#PWR0503"  Part="1" 
+F 0 "#PWR0503" H 5950 3950 50  0001 C CNN
+F 1 "GND" H 5950 4050 39  0000 C CNB
+F 2 "" H 5950 4200 50  0001 C CNN
+F 3 "" H 5950 4200 50  0001 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Power:GND #PWR?
+U 1 1 5C748E8F
+P 5550 4200
+AR Path="/5C748E8F" Ref="#PWR?"  Part="1" 
+AR Path="/5C748CE9/5C748E8F" Ref="#PWR0502"  Part="1" 
+F 0 "#PWR0502" H 5550 3950 50  0001 C CNN
+F 1 "GND" H 5550 4050 39  0000 C CNB
+F 2 "" H 5550 4200 50  0001 C CNN
+F 3 "" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4200 5550 4100
+Wire Wire Line
+	5950 4100 5950 4200
+Connection ~ 5950 3700
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5C748E98
+P 4450 2550
+AR Path="/5C748E98" Ref="SW?"  Part="1" 
+AR Path="/5C748CE9/5C748E98" Ref="SW501"  Part="1" 
+F 0 "SW501" H 4450 2675 50  0000 C CNN
+F 1 "SW_SPST" H 4450 2450 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.2mm_Hole_2.0_Annular_2.54mm_Pitch" H 4450 2550 50  0001 C CNN
+F 3 "" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3700 6350 3700
+Wire Wire Line
+	4750 2550 4650 2550
+Text HLabel 4300 4850 2    50   Input ~ 0
+GND
+Text HLabel 4300 4650 2    50   Input ~ 0
+VREF
+Text HLabel 4300 4750 2    50   Input ~ 0
+INPUT
+Text HLabel 4300 4550 2    50   Input ~ 0
+OUTPUT
+Text HLabel 4300 4950 2    50   Input ~ 0
+FEEDBACK
+Text HLabel 4250 2550 0    50   Input ~ 0
+FEEDBACK
+Text HLabel 6350 3700 2    50   Input ~ 0
+OUTPUT
+Text HLabel 4750 3400 0    50   Input ~ 0
+INPUT
+$Comp
+L Connector_Generic:Conn_01x05 J501
+U 1 1 5C7494A4
+P 4100 4750
+F 0 "J501" H 4100 5050 50  0000 C CNN
+F 1 "Conn_01x05" H 4100 4450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4100 4750 50  0001 C CNN
+F 3 "~" H 4100 4750 50  0001 C CNN
+	1    4100 4750
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
