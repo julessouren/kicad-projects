@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom
+#
+DEF SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom J 0 40 Y N 1 F N
+F0 "J" 0 100 39 H V C CNB
+F1 "SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -300 20 H V C CNN
+F2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -350 20 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -250 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SA_Voltage_Regulator_ON_Semi_NCP1117LPST50T3G
+#
+DEF SA_Voltage_Regulator_ON_Semi_NCP1117LPST50T3G U 0 10 Y Y 1 F N
+F0 "U" -200 125 39 H V C CNB
+F1 "SA_Voltage_Regulator_ON_Semi_NCP1117LPST50T3G" 200 125 20 H V C CNB
+F2 "SA_Voltage_Regulators_SMD:ON_Semi_NCP1117LPST50T3G_SOT-223-3" 0 -250 20 H I C CNN
+F3 "" 100 -250 50 H I C CNN
+DRAW
+T 0 0 0 20 0 0 0 5V Normal 0 C C
+S -200 -200 200 75 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

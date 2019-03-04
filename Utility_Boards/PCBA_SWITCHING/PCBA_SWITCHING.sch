@@ -1,0 +1,602 @@
+EESchema Schematic File Version 4
+LIBS:PCBA_SWITCHING-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 1 1 5C5EC8C1
+P 2950 5150
+F 0 "U1" H 3000 5300 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3000 5350 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 2950 5150 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3000 5150 50  0001 C CNN
+	1    2950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 2 1 5C5EC928
+P 2950 5850
+F 0 "U1" H 3000 6000 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3000 6050 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 2950 5850 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3000 5850 50  0001 C CNN
+	2    2950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 3 1 5C5EC960
+P 2950 5500
+F 0 "U1" H 3000 5650 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3000 5700 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 2950 5500 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3000 5500 50  0001 C CNN
+	3    2950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 4 1 5C5EC9B6
+P 2600 4850
+F 0 "U1" H 2650 5000 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 2650 5050 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 2600 4850 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 2650 4850 50  0001 C CNN
+	4    2600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 5 1 5C5EC9FC
+P 3050 3050
+F 0 "U1" H 3100 3200 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3100 3250 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 3050 3050 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3100 3050 50  0001 C CNN
+	5    3050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 6 1 5C5ECA44
+P 3750 3050
+F 0 "U1" H 3800 3200 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 3800 3250 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 3750 3050 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 3800 3050 50  0001 C CNN
+	6    3750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_CMOS_Logic:Texas_Instruments_CD40106BM U1
+U 7 1 5C5ECA94
+P 4450 3050
+F 0 "U1" H 4500 3200 39  0000 L CNB
+F 1 "Texas_Instruments_CD40106BM" H 4500 3250 20  0000 L CNB
+F 2 "SA_CMOS_Logic_SMD:Texas_Instruments_CD40106BM_SOIC-14" H 4450 3050 20  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NL37WZ14-D.PDF" H 4500 3050 50  0001 C CNN
+	7    4450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Device:R R1
+U 1 1 5C5ECADE
+P 3400 2650
+F 0 "R1" V 3480 2650 50  0000 C CNN
+F 1 "100k" V 3400 2650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 3330 2650 50  0001 C CNN
+F 3 "" H 3400 2650 50  0001 C CNN
+	1    3400 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SA_Device:R R2
+U 1 1 5C5ECB76
+P 3400 3250
+F 0 "R2" V 3480 3250 50  0000 C CNN
+F 1 "100k" V 3400 3250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 3330 3250 50  0001 C CNN
+F 3 "" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2650 4100 2650
+Wire Wire Line
+	4100 2650 4100 3050
+Wire Wire Line
+	4100 3050 4050 3050
+Wire Wire Line
+	3450 3050 3400 3050
+Wire Wire Line
+	3400 3050 3400 3100
+Wire Wire Line
+	3400 3050 3350 3050
+Connection ~ 3400 3050
+Wire Wire Line
+	3250 2650 2700 2650
+Wire Wire Line
+	2700 2650 2700 3050
+Wire Wire Line
+	2700 3050 2750 3050
+Wire Wire Line
+	2700 3450 2700 3050
+Connection ~ 2700 3050
+Wire Wire Line
+	4150 3050 4100 3050
+Connection ~ 4100 3050
+$Comp
+L SA_Device:R R3
+U 1 1 5C5ECED9
+P 4100 2450
+F 0 "R3" V 4180 2450 50  0000 C CNN
+F 1 "CLR" V 4100 2450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4030 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 5C5ED007
+P 4100 2050
+F 0 "D1" H 4100 2150 50  0000 C CNN
+F 1 "LED_INDICATOR" H 4100 1850 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular" H 4100 2050 50  0001 C CNN
+F 3 "~" H 4100 2050 50  0001 C CNN
+	1    4100 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2600 4100 2650
+Connection ~ 4100 2650
+$Comp
+L SA_Power:GND #PWR02
+U 1 1 5C5ED2A7
+P 2600 6100
+F 0 "#PWR02" H 2600 5850 50  0001 C CNN
+F 1 "GND" H 2600 5950 39  0000 C CNB
+F 2 "" H 2600 6100 50  0001 C CNN
+F 3 "" H 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR01
+U 1 1 5C5ED2FB
+P 2600 4600
+F 0 "#PWR01" H 2600 4450 50  0001 C CNN
+F 1 "+9.0VDC" H 2600 4750 39  0000 C CNB
+F 2 "" H 2600 4600 50  0001 C CNN
+F 3 "" H 2600 4600 50  0001 C CNN
+	1    2600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5000 2600 5150
+Wire Wire Line
+	2600 5850 2650 5850
+Connection ~ 2600 5850
+Wire Wire Line
+	2600 5850 2600 6000
+Wire Wire Line
+	2650 5500 2600 5500
+Connection ~ 2600 5500
+Wire Wire Line
+	2600 5500 2600 5850
+Wire Wire Line
+	2650 5150 2600 5150
+Connection ~ 2600 5150
+Wire Wire Line
+	2600 5150 2600 5500
+NoConn ~ 3250 5150
+NoConn ~ 3250 5500
+NoConn ~ 3250 5850
+$Comp
+L SA_Power:+9.0VDC #PWR03
+U 1 1 5C5EDDD5
+P 4100 1800
+F 0 "#PWR03" H 4100 1650 50  0001 C CNN
+F 1 "+9.0VDC" H 4100 1950 39  0000 C CNB
+F 2 "" H 4100 1800 50  0001 C CNN
+F 3 "" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3450 3400 3400
+$Comp
+L SA_Diode:ON_Semi_1N4148WS D2
+U 1 1 5C5EEFCA
+P 4900 3050
+F 0 "D2" H 4900 3150 39  0000 C CNB
+F 1 "ON_Semi_1N4148WS" H 4900 3200 20  0000 C CNB
+F 2 "SA_Diodes_SMD:ON_Semi_1N4148WS_SOD-323F-2" H 4900 2950 20  0001 C CNN
+F 3 "~" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SA_Transistor_BJT:ON_Semi_MBT3946DW1T1G Q1
+U 2 1 5C5EF0FC
+P 5000 3300
+F 0 "Q1" H 4900 3400 39  0000 C CNB
+F 1 "ON_Semi_MBT3946DW1T1G" H 4900 3450 20  0000 C CNB
+F 2 "SA_Transistors_BJT_SMD:ON_Semi_MBT3946DW1T1G_SOT-363_SC-70-6_SC-80" H 5000 3300 20  0001 C CNN
+F 3 "" H 5000 3300 50  0001 C CNN
+	2    5000 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L SA_Transistor_BJT:ON_Semi_MBT3946DW1T1G Q1
+U 1 1 5C5EF1A6
+P 5350 3550
+F 0 "Q1" H 5250 3650 39  0000 C CNB
+F 1 "ON_Semi_MBT3946DW1T1G" H 5250 3700 20  0000 C CNB
+F 2 "SA_Transistors_BJT_SMD:ON_Semi_MBT3946DW1T1G_SOT-363_SC-70-6_SC-80" H 5350 3550 20  0001 C CNN
+F 3 "" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Device:R R6
+U 1 1 5C5EF1F0
+P 5450 3200
+F 0 "R6" V 5530 3200 50  0000 C CNN
+F 1 "47R" V 5450 3200 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5380 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3050 5100 3050
+Wire Wire Line
+	5100 3100 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	5100 3050 5050 3050
+Wire Wire Line
+	5100 3500 5100 3550
+Wire Wire Line
+	5100 3550 5150 3550
+$Comp
+L SA_Device:R R5
+U 1 1 5C5EF27A
+P 5100 3750
+F 0 "R5" V 5180 3750 50  0000 C CNN
+F 1 "15k" V 5100 3750 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5030 3750 50  0001 C CNN
+F 3 "" H 5100 3750 50  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3600 5100 3550
+Connection ~ 5100 3550
+$Comp
+L SA_Device:R R4
+U 1 1 5C5EF2E0
+P 4750 3750
+F 0 "R4" V 4830 3750 50  0000 C CNN
+F 1 "150k" V 4750 3750 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4680 3750 50  0001 C CNN
+F 3 "" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3600 4750 3300
+Wire Wire Line
+	4750 3300 4800 3300
+Wire Wire Line
+	4750 3300 4750 3050
+Connection ~ 4750 3300
+Wire Wire Line
+	4750 3900 4750 3950
+Wire Wire Line
+	4750 3950 5100 3950
+Wire Wire Line
+	5100 3950 5100 3900
+Wire Wire Line
+	5100 3950 5450 3950
+Wire Wire Line
+	5450 3950 5450 3750
+Connection ~ 5100 3950
+Connection ~ 5450 3050
+Text Label 6600 3050 0    50   ~ 0
+CAP_-
+Connection ~ 4750 3050
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C5F2F50
+P 3050 3450
+F 0 "SW1" H 3100 3550 50  0000 L CNN
+F 1 "SW_Push" H 3050 3390 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular_2.54mm_Pitch" H 3050 3650 50  0001 C CNN
+F 3 "" H 3050 3650 50  0001 C CNN
+	1    3050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3450 3400 3450
+Wire Wire Line
+	2850 3450 2700 3450
+$Comp
+L Device:C C1
+U 1 1 5C5F3DCA
+P 2700 3700
+F 0 "C1" H 2725 3800 50  0000 L CNN
+F 1 "C" H 2725 3600 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 2738 3550 50  0001 C CNN
+F 3 "~" H 2700 3700 50  0001 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5C5F3E11
+P 3400 3700
+F 0 "C2" H 3425 3800 50  0000 L CNN
+F 1 "C" H 3425 3600 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 3438 3550 50  0001 C CNN
+F 3 "~" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 3450
+Connection ~ 2700 3450
+Wire Wire Line
+	4750 3950 4100 3950
+Connection ~ 4750 3950
+Wire Wire Line
+	2700 3450 2700 3550
+Wire Wire Line
+	2700 3850 2700 3950
+Wire Wire Line
+	3400 3850 3400 3950
+Connection ~ 3400 3950
+Wire Wire Line
+	3400 3950 2700 3950
+Wire Wire Line
+	3400 3450 3400 3550
+$Comp
+L SA_Power:GND #PWR04
+U 1 1 5C5F8AB2
+P 4100 4050
+F 0 "#PWR04" H 4100 3800 50  0001 C CNN
+F 1 "GND" H 4100 3900 39  0000 C CNB
+F 2 "" H 4100 4050 50  0001 C CNN
+F 3 "" H 4100 4050 50  0001 C CNN
+	1    4100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4050 4100 3950
+Connection ~ 4100 3950
+Wire Wire Line
+	4100 3950 3400 3950
+Text Label 3400 3450 0    50   ~ 0
+SW_1
+Text Label 2600 3450 2    50   ~ 0
+SW_2
+Text Label 2500 6000 2    50   ~ 0
+GND
+Text Label 2500 4650 2    50   ~ 0
++9VDC
+$Comp
+L SA_Connectors:PinHeader_1x05_P2.54mm_Vertical_Bottom J2
+U 1 1 5C609260
+P 5300 5650
+F 0 "J2" H 5300 5950 39  0000 C CNB
+F 1 "PinHeader_1x05_P2.54mm_Vertical_Bottom" H 5300 5350 20  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 5650 50  0001 C CNN
+F 3 "~" H 5300 5650 50  0001 C CNN
+	1    5300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Connectors:PinHeader_1x05_P2.54mm_Vertical_Bottom J1
+U 1 1 5C6092C3
+P 4450 5650
+F 0 "J1" H 4450 5950 39  0000 C CNB
+F 1 "PinHeader_1x05_P2.54mm_Vertical_Bottom" H 4450 5350 20  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4450 5650 50  0001 C CNN
+F 3 "~" H 4450 5650 50  0001 C CNN
+	1    4450 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2200 4100 2250
+Wire Wire Line
+	4100 1800 4100 1850
+Wire Wire Line
+	4050 1850 4100 1850
+Connection ~ 4100 1850
+Wire Wire Line
+	4100 1850 4100 1900
+Wire Wire Line
+	4050 2250 4100 2250
+Connection ~ 4100 2250
+Wire Wire Line
+	4100 2250 4100 2300
+Text Label 4050 2250 2    50   ~ 0
+LED_-
+Text Label 4050 1850 2    50   ~ 0
+LED_+
+Text Label 4650 5450 0    50   ~ 0
+CAP_-
+Text Label 4650 5650 0    50   ~ 0
+SND
+Text Label 5100 5750 2    50   ~ 0
+RTN
+Text Label 5100 5650 2    50   ~ 0
+OUT
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5C611B0E
+P 4150 4850
+F 0 "J3" H 4150 4950 50  0000 C CNN
+F 1 "Conn_01x02" H 4150 4650 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular_2.54mm_Pitch" H 4150 4850 50  0001 C CNN
+F 3 "~" H 4150 4850 50  0001 C CNN
+	1    4150 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR07
+U 1 1 5C611B7A
+P 4400 4800
+F 0 "#PWR07" H 4400 4650 50  0001 C CNN
+F 1 "+9.0VDC" H 4400 4950 39  0000 C CNB
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SA_Power:GND #PWR08
+U 1 1 5C611C0F
+P 4400 5000
+F 0 "#PWR08" H 4400 4750 50  0001 C CNN
+F 1 "GND" H 4400 4850 39  0000 C CNB
+F 2 "" H 4400 5000 50  0001 C CNN
+F 3 "" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5000 4400 4950
+Wire Wire Line
+	4400 4950 4350 4950
+Wire Wire Line
+	4350 4850 4400 4850
+Wire Wire Line
+	4400 4850 4400 4800
+$Comp
+L SA_Capacitors:Nichicon_UWT_100uF_25V C3
+U 1 1 5C61530D
+P 6300 3050
+F 0 "C3" H 6325 3150 39  0000 L CNB
+F 1 "Nichicon_UWT_100uF_25V" H 6325 3200 20  0000 L CNB
+F 2 "SA_Capacitors_SMD:Nichicon_UWT1E101MCL1GS_100uF_25V_6.3x7.7mm" H 6225 3050 20  0001 C CNN
+F 3 "~" H 6300 3050 50  0001 C CNN
+	1    6300 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 4850 0    50   ~ 0
+IN
+Text Label 4950 4950 0    50   ~ 0
+GND
+Text Label 5650 4850 0    50   ~ 0
+OUT
+Text Label 5650 4950 0    50   ~ 0
+GND
+Text Label 5100 5450 2    50   ~ 0
+GND
+Text Label 4650 5550 0    50   ~ 0
+GND
+Text Label 4650 5750 0    50   ~ 0
+IN
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5C5C2C0B
+P 4750 4850
+F 0 "J4" H 4750 4950 50  0000 C CNN
+F 1 "Conn_01x02" H 4750 4650 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular_2.54mm_Pitch" H 4750 4850 50  0001 C CNN
+F 3 "~" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5C5C2E97
+P 5450 4850
+F 0 "J5" H 5450 4950 50  0000 C CNN
+F 1 "Conn_01x02" H 5450 4650 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_2x_1.0mm_Hole_1.5_Annular_2.54mm_Pitch" H 5450 4850 50  0001 C CNN
+F 3 "~" H 5450 4850 50  0001 C CNN
+	1    5450 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SA_Capacitors:Nichicon_UWT_220uF_25V C4
+U 1 1 5C5C3670
+P 6300 3300
+F 0 "C4" H 6325 3400 39  0000 L CNB
+F 1 "Nichicon_UWT_220uF_25V" H 6325 3450 20  0000 L CNB
+F 2 "SA_Capacitors_SMD:Nichicon_UWT1E221MNL1GS_220uF_25V_8.0x10.0mm" H 6225 3300 20  0001 C CNN
+F 3 "~" H 6300 3300 50  0001 C CNN
+	1    6300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SA_Capacitors:CP_220uF_25V_D8.0_H11.5_P3.5 C5
+U 1 1 5C5C3740
+P 6300 3550
+F 0 "C5" H 6325 3650 39  0000 L CNB
+F 1 "CP_220uF_25V_D8.0_H11.5_P3.5" H 6325 3700 20  0000 L CNB
+F 2 "SA_Capacitors_THT:Capacitor_Electrolytic_Radial_D8.0_H11.5_P3.5" H 6225 3550 20  0001 C CNN
+F 3 "~" H 6300 3550 50  0001 C CNN
+	1    6300 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3550 6050 3550
+Wire Wire Line
+	6050 3550 6050 3300
+Wire Wire Line
+	6050 3300 6150 3300
+Wire Wire Line
+	6050 3300 6050 3050
+Wire Wire Line
+	6050 3050 6150 3050
+Connection ~ 6050 3300
+Wire Wire Line
+	5450 3050 6050 3050
+Connection ~ 6050 3050
+Wire Wire Line
+	6450 3050 6550 3050
+Wire Wire Line
+	6550 3050 6550 3300
+Wire Wire Line
+	6550 3300 6450 3300
+Connection ~ 6550 3050
+Wire Wire Line
+	6550 3050 6600 3050
+Wire Wire Line
+	6550 3300 6550 3550
+Wire Wire Line
+	6550 3550 6450 3550
+Connection ~ 6550 3300
+Text Notes 5500 5650 0    50   ~ 0
+Right IN is connected \nvia relay PCBA
+Wire Wire Line
+	2600 4600 2600 4650
+Wire Wire Line
+	2500 4650 2600 4650
+Connection ~ 2600 4650
+Wire Wire Line
+	2600 4650 2600 4700
+Wire Wire Line
+	2500 6000 2600 6000
+Connection ~ 2600 6000
+Wire Wire Line
+	2600 6000 2600 6100
+Wire Wire Line
+	2600 3450 2700 3450
+$EndSCHEMATC

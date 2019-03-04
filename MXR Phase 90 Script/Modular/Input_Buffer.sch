@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+LIBS:MXR Phase 90 Script-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R401
+U 1 1 5C73835D
+P 4950 3700
+F 0 "R401" V 5030 3700 50  0000 C CNN
+F 1 "10k" V 4950 3700 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4880 3700 50  0001 C CNN
+F 3 "~" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C401
+U 1 1 5C738364
+P 5350 3700
+F 0 "C401" H 5375 3800 50  0000 L CNN
+F 1 "10n" H 5375 3600 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 5388 3550 50  0001 C CNN
+F 3 "~" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R402
+U 1 1 5C73836B
+P 5600 3950
+F 0 "R402" V 5680 3950 50  0000 C CNN
+F 1 "470k" V 5600 3950 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5530 3950 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3500 5600 3500
+Wire Wire Line
+	5600 3500 5600 3100
+Wire Wire Line
+	5600 3100 6400 3100
+Wire Wire Line
+	5700 3700 5600 3700
+Wire Wire Line
+	5600 3700 5600 3800
+Wire Wire Line
+	5600 3700 5500 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	5200 3700 5100 3700
+$Comp
+L SA_Power:VREF #PWR0401
+U 1 1 5C73837A
+P 5600 4200
+F 0 "#PWR0401" H 5600 4050 50  0001 C CNN
+F 1 "VREF" H 5600 4350 39  0000 C CNB
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4200 5600 4150
+$Comp
+L SA_Power:GND #PWR0402
+U 1 1 5C738381
+P 5900 3300
+F 0 "#PWR0402" H 5900 3050 50  0001 C CNN
+F 1 "GND" H 5900 3150 39  0000 C CNB
+F 2 "" H 5900 3300 50  0001 C CNN
+F 3 "" H 5900 3300 50  0001 C CNN
+	1    5900 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR0403
+U 1 1 5C738387
+P 5900 3900
+F 0 "#PWR0403" H 5900 3750 50  0001 C CNN
+F 1 "+9.0VDC" H 5900 4050 39  0000 C CNB
+F 2 "" H 5900 3900 50  0001 C CNN
+F 3 "" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6000 3300
+NoConn ~ 6100 3300
+$Comp
+L Amplifier_Operational:TL061 U401
+U 1 1 5C73838F
+P 6000 3600
+F 0 "U401" H 6000 3850 50  0000 L CNN
+F 1 "TL061" H 6000 3750 50  0000 L CNN
+F 2 "SA_Packages:DIP-8_W7.62mm_Socketed" H 6050 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 6150 3750 50  0001 C CNN
+	1    6000 3600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4800 3700 4700 3700
+Wire Wire Line
+	6400 3100 6400 3600
+Wire Wire Line
+	6400 3600 6300 3600
+Wire Wire Line
+	6400 3600 6500 3600
+Connection ~ 6400 3600
+Text HLabel 4400 4300 2    50   Input ~ 0
++9VDC
+Text HLabel 4400 4400 2    50   Input ~ 0
+GND
+Text HLabel 4400 4500 2    50   Input ~ 0
+VREF
+Text HLabel 4400 4600 2    50   Input ~ 0
+INPUT
+Text HLabel 4400 4700 2    50   Input ~ 0
+OUTPUT
+Wire Wire Line
+	4400 4300 4300 4300
+Wire Wire Line
+	4300 4400 4400 4400
+Wire Wire Line
+	4400 4500 4300 4500
+Wire Wire Line
+	4300 4600 4400 4600
+Text HLabel 4700 3700 0    50   Input ~ 0
+INPUT
+Text HLabel 6500 3600 2    50   Input ~ 0
+OUTPUT
+Text HLabel 5900 3300 0    50   Input ~ 0
+GND
+Text HLabel 5900 3900 2    50   Input ~ 0
++9VDC
+Text HLabel 5650 4150 2    50   Input ~ 0
+VREF
+Wire Wire Line
+	5650 4150 5600 4150
+Connection ~ 5600 4150
+Wire Wire Line
+	5600 4150 5600 4100
+$Comp
+L Connector_Generic:Conn_01x05 J401
+U 1 1 5C76DD86
+P 4100 4500
+F 0 "J401" H 4100 4800 50  0000 C CNN
+F 1 "Conn_01x05" H 4100 4200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4100 4500 50  0001 C CNN
+F 3 "~" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4700 4300 4700
+$EndSCHEMATC

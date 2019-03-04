@@ -1,0 +1,270 @@
+EESchema Schematic File Version 4
+LIBS:MXR Phase 90 Script-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4700 3800 4600 3800
+$Comp
+L Device:R R?
+U 1 1 5C74A42B
+P 5150 3700
+AR Path="/5C74A42B" Ref="R?"  Part="1" 
+AR Path="/5C74A31B/5C74A42B" Ref="R601"  Part="1" 
+AR Path="/5C74AE1F/5C74A42B" Ref="R701"  Part="1" 
+AR Path="/5C74AE28/5C74A42B" Ref="R801"  Part="1" 
+AR Path="/5C74AE31/5C74A42B" Ref="R901"  Part="1" 
+F 0 "R901" V 5230 3700 50  0000 C CNN
+F 1 "10k" V 5150 3700 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5080 3700 50  0001 C CNN
+F 3 "~" H 5150 3700 50  0001 C CNN
+	1    5150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C74A432
+P 5150 3900
+AR Path="/5C74A432" Ref="C?"  Part="1" 
+AR Path="/5C74A31B/5C74A432" Ref="C601"  Part="1" 
+AR Path="/5C74AE1F/5C74A432" Ref="C701"  Part="1" 
+AR Path="/5C74AE28/5C74A432" Ref="C801"  Part="1" 
+AR Path="/5C74AE31/5C74A432" Ref="C901"  Part="1" 
+F 0 "C901" H 5175 4000 50  0000 L CNN
+F 1 "47n" H 5175 3800 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 5188 3750 50  0001 C CNN
+F 3 "~" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5000 3900 4900 3900
+Wire Wire Line
+	5000 3700 4900 3700
+$Comp
+L Device:R R?
+U 1 1 5C74A43B
+P 5400 4150
+AR Path="/5C74A43B" Ref="R?"  Part="1" 
+AR Path="/5C74A31B/5C74A43B" Ref="R602"  Part="1" 
+AR Path="/5C74AE1F/5C74A43B" Ref="R702"  Part="1" 
+AR Path="/5C74AE28/5C74A43B" Ref="R802"  Part="1" 
+AR Path="/5C74AE31/5C74A43B" Ref="R902"  Part="1" 
+F 0 "R902" V 5480 4150 50  0000 C CNN
+F 1 "24k" V 5400 4150 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5330 4150 50  0001 C CNN
+F 3 "~" H 5400 4150 50  0001 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Transistor_JFET:ON_Semi_MMBF5457_SOT-23-3 Q?
+U 1 1 5C74A442
+P 5700 4150
+AR Path="/5C74A442" Ref="Q?"  Part="1" 
+AR Path="/5C74A31B/5C74A442" Ref="Q601"  Part="1" 
+AR Path="/5C74AE1F/5C74A442" Ref="Q701"  Part="1" 
+AR Path="/5C74AE28/5C74A442" Ref="Q801"  Part="1" 
+AR Path="/5C74AE31/5C74A442" Ref="Q901"  Part="1" 
+F 0 "Q901" H 5600 4300 39  0000 L CNB
+F 1 "ON_Semi_MMBF5457_SOT-23-3" H 5200 4000 20  0000 L CNB
+F 2 "SA_Connectors_Pin_Sockets_THT:PinSocket_01x03_P2.54mm" H 5900 4075 20  0001 L CIN
+F 3 "" H 5700 4100 50  0001 L CNN
+	1    5700 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4000 5400 3900
+Wire Wire Line
+	5400 3900 5300 3900
+Wire Wire Line
+	5400 3900 5600 3900
+Wire Wire Line
+	5600 3900 5600 3950
+Connection ~ 5400 3900
+Wire Wire Line
+	5600 4350 5600 4400
+Wire Wire Line
+	5600 4400 5500 4400
+Wire Wire Line
+	5400 4400 5400 4300
+Wire Wire Line
+	5900 3900 5600 3900
+Connection ~ 5600 3900
+$Comp
+L Device:R R?
+U 1 1 5C74A453
+P 6200 3250
+AR Path="/5C74A453" Ref="R?"  Part="1" 
+AR Path="/5C74A31B/5C74A453" Ref="R603"  Part="1" 
+AR Path="/5C74AE1F/5C74A453" Ref="R703"  Part="1" 
+AR Path="/5C74AE28/5C74A453" Ref="R803"  Part="1" 
+AR Path="/5C74AE31/5C74A453" Ref="R903"  Part="1" 
+F 0 "R903" V 6280 3250 50  0000 C CNN
+F 1 "10k" V 6200 3250 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 6130 3250 50  0001 C CNN
+F 3 "~" H 6200 3250 50  0001 C CNN
+	1    6200 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3800 6500 3800
+Wire Wire Line
+	4700 3800 4900 3800
+Connection ~ 4700 3800
+Wire Wire Line
+	5300 3700 5800 3700
+Wire Wire Line
+	6050 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	5800 3700 5900 3700
+Wire Wire Line
+	6600 3800 6600 3250
+Wire Wire Line
+	6600 3250 6350 3250
+Connection ~ 6600 3800
+Wire Wire Line
+	6600 3800 6800 3800
+Wire Wire Line
+	4900 3700 4900 3800
+$Comp
+L SA_Power:VREF #PWR?
+U 1 1 5C74A467
+P 5500 4500
+AR Path="/5C74A467" Ref="#PWR?"  Part="1" 
+AR Path="/5C74A31B/5C74A467" Ref="#PWR0601"  Part="1" 
+AR Path="/5C74AE1F/5C74A467" Ref="#PWR0701"  Part="1" 
+AR Path="/5C74AE28/5C74A467" Ref="#PWR0801"  Part="1" 
+AR Path="/5C74AE31/5C74A467" Ref="#PWR0901"  Part="1" 
+F 0 "#PWR0901" H 5500 4350 50  0001 C CNN
+F 1 "VREF" H 5500 4650 39  0000 C CNB
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4500 5500 4400
+Connection ~ 5500 4400
+Wire Wire Line
+	5500 4400 5400 4400
+Wire Wire Line
+	5950 4750 5950 4150
+Wire Wire Line
+	5950 4150 5900 4150
+Connection ~ 4900 3800
+Wire Wire Line
+	4900 3800 4900 3900
+$Comp
+L SA_Power:GND #PWR?
+U 1 1 5C74A474
+P 6100 3500
+AR Path="/5C74A474" Ref="#PWR?"  Part="1" 
+AR Path="/5C74A31B/5C74A474" Ref="#PWR0602"  Part="1" 
+AR Path="/5C74AE1F/5C74A474" Ref="#PWR0702"  Part="1" 
+AR Path="/5C74AE28/5C74A474" Ref="#PWR0802"  Part="1" 
+AR Path="/5C74AE31/5C74A474" Ref="#PWR0902"  Part="1" 
+F 0 "#PWR0902" H 6100 3250 50  0001 C CNN
+F 1 "GND" H 6100 3350 39  0000 C CNB
+F 2 "" H 6100 3500 50  0001 C CNN
+F 3 "" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR?
+U 1 1 5C74A47A
+P 6100 4100
+AR Path="/5C74A47A" Ref="#PWR?"  Part="1" 
+AR Path="/5C74A31B/5C74A47A" Ref="#PWR0603"  Part="1" 
+AR Path="/5C74AE1F/5C74A47A" Ref="#PWR0703"  Part="1" 
+AR Path="/5C74AE28/5C74A47A" Ref="#PWR0803"  Part="1" 
+AR Path="/5C74AE31/5C74A47A" Ref="#PWR0903"  Part="1" 
+F 0 "#PWR0903" H 6100 3950 50  0001 C CNN
+F 1 "+9.0VDC" H 6100 4250 39  0000 C CNB
+F 2 "" H 6100 4100 50  0001 C CNN
+F 3 "" H 6100 4100 50  0001 C CNN
+	1    6100 4100
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6300 3500
+NoConn ~ 6200 3500
+$Comp
+L Amplifier_Operational:TL061 U?
+U 1 1 5C74A482
+P 6200 3800
+AR Path="/5C74A482" Ref="U?"  Part="1" 
+AR Path="/5C74A31B/5C74A482" Ref="U601"  Part="1" 
+AR Path="/5C74AE1F/5C74A482" Ref="U701"  Part="1" 
+AR Path="/5C74AE28/5C74A482" Ref="U801"  Part="1" 
+AR Path="/5C74AE31/5C74A482" Ref="U901"  Part="1" 
+F 0 "U901" H 6200 4050 50  0000 L CNN
+F 1 "TL061" H 6200 3950 50  0000 L CNN
+F 2 "SA_Packages:DIP-8_W7.62mm_Socketed" H 6250 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 6350 3950 50  0001 C CNN
+	1    6200 3800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2950 4700 3800
+Text HLabel 6800 3800 2    50   Input ~ 0
+OUTPUT
+Text HLabel 4600 3800 0    50   Input ~ 0
+INPUT
+Text HLabel 4700 2950 1    50   Input ~ 0
+FEEDBACK_IN
+Text HLabel 5950 4750 3    50   Input ~ 0
+VBIAS
+Text HLabel 4800 4750 2    50   Input ~ 0
++9VDC
+Text HLabel 4800 4850 2    50   Input ~ 0
+GND
+Text HLabel 4800 4950 2    50   Input ~ 0
+VREF
+Text HLabel 4800 5050 2    50   Input ~ 0
+VBIAS
+Text HLabel 4800 5150 2    50   Input ~ 0
+INPUT
+Text HLabel 4800 5250 2    50   Input ~ 0
+OUTPUT
+Text HLabel 4800 5350 2    50   Input ~ 0
+FEEDBACK_IN
+$Comp
+L Connector_Generic:Conn_01x07 J601
+U 1 1 5C76E63A
+P 4600 5050
+AR Path="/5C74A31B/5C76E63A" Ref="J601"  Part="1" 
+AR Path="/5C74AE1F/5C76E63A" Ref="J701"  Part="1" 
+AR Path="/5C74AE28/5C76E63A" Ref="J801"  Part="1" 
+AR Path="/5C74AE31/5C76E63A" Ref="J901"  Part="1" 
+F 0 "J901" H 4600 5450 50  0000 C CNN
+F 1 "Conn_01x07" H 4600 4650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 4600 5050 50  0001 C CNN
+F 3 "~" H 4600 5050 50  0001 C CNN
+	1    4600 5050
+	-1   0    0    -1  
+$EndComp
+Text HLabel 5450 4500 0    50   Input ~ 0
+VREF
+Wire Wire Line
+	5450 4500 5500 4500
+Connection ~ 5500 4500
+Text HLabel 6100 4100 2    50   Input ~ 0
++9VDC
+Text HLabel 6100 3500 0    50   Input ~ 0
+GND
+$EndSCHEMATC

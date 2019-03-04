@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+LIBS:MXR Phase 90 Script-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R304
+U 1 1 5C71E1B9
+P 5850 4300
+F 0 "R304" V 5930 4300 50  0000 C CNN
+F 1 "470k" V 5850 4300 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5780 4300 50  0001 C CNN
+F 3 "~" H 5850 4300 50  0001 C CNN
+	1    5850 4300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C302
+U 1 1 5C71E1C0
+P 5850 3200
+F 0 "C302" H 5875 3300 50  0000 L CNN
+F 1 "10n" H 5875 3100 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:C_0603_1608M" H 5888 3050 50  0001 C CNN
+F 3 "~" H 5850 3200 50  0001 C CNN
+	1    5850 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3650 5500 3650
+Wire Wire Line
+	5500 3650 5500 3200
+Wire Wire Line
+	5500 3200 5700 3200
+Wire Wire Line
+	6000 3200 6200 3200
+Wire Wire Line
+	6200 3200 6200 3750
+Wire Wire Line
+	6200 3750 6150 3750
+Wire Wire Line
+	6200 4300 6200 3750
+Wire Wire Line
+	6000 4300 6200 4300
+Connection ~ 6200 3750
+Wire Wire Line
+	5700 4300 5500 4300
+Wire Wire Line
+	5500 4300 5500 3850
+Wire Wire Line
+	5500 3850 5550 3850
+$Comp
+L Device:R R302
+U 1 1 5C71E1D3
+P 5300 3650
+F 0 "R302" V 5380 3650 50  0000 C CNN
+F 1 "150k" V 5300 3650 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5230 3650 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R303
+U 1 1 5C71E1DA
+P 5300 3850
+F 0 "R303" V 5380 3850 50  0000 C CNN
+F 1 "150k" V 5300 3850 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 5230 3850 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3650 5450 3650
+Connection ~ 5500 3650
+Wire Wire Line
+	5450 3850 5500 3850
+Connection ~ 5500 3850
+$Comp
+L Device:R_POT RV301
+U 1 1 5C71E1E5
+P 5850 2800
+F 0 "RV301" V 5750 2800 50  0000 C CNN
+F 1 "500k" V 5850 2800 50  0000 C CNN
+F 2 "SA_Connectors_Wire:Wire_Pad_3x_1.2mm_Hole_2.0_Annular_2.54mm_Pitch" H 5850 2800 50  0001 C CNN
+F 3 "~" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 2800 6200 2800
+Wire Wire Line
+	6200 2800 6200 3200
+Connection ~ 6200 3200
+Wire Wire Line
+	5700 2800 5650 2800
+Wire Wire Line
+	5100 2800 5100 3650
+Wire Wire Line
+	5100 3650 5150 3650
+Wire Wire Line
+	5850 2650 5850 2600
+Wire Wire Line
+	5850 2600 5650 2600
+Wire Wire Line
+	5650 2600 5650 2800
+Connection ~ 5650 2800
+Wire Wire Line
+	5650 2800 5100 2800
+$Comp
+L SA_Power:VREF #PWR0303
+U 1 1 5C71E1F7
+P 5100 3900
+F 0 "#PWR0303" H 5100 3750 50  0001 C CNN
+F 1 "VREF" H 5100 4050 39  0000 C CNB
+F 2 "" H 5100 3900 50  0001 C CNN
+F 3 "" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 3900 5100 3850
+Wire Wire Line
+	5100 3850 5150 3850
+$Comp
+L Device:CP1 C301
+U 1 1 5C71E1FF
+P 4800 4000
+F 0 "C301" H 4825 4100 50  0000 L CNN
+F 1 "15u" H 4825 3900 50  0000 L CNN
+F 2 "SA_Capacitors_SMD:Nichicon_UWT1V220MCL1GB_22uF_35V_6.3x5.4mm" H 4800 4000 50  0001 C CNN
+F 3 "~" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R301
+U 1 1 5C71E206
+P 4800 3450
+F 0 "R301" V 4880 3450 50  0000 C CNN
+F 1 "3M9" V 4800 3450 50  0000 C CNN
+F 2 "SA_Resistors_SMD:R_0603_1608M" V 4730 3450 50  0001 C CNN
+F 3 "~" H 4800 3450 50  0001 C CNN
+	1    4800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3650 4800 3650
+Wire Wire Line
+	4800 3650 4800 3600
+Connection ~ 5100 3650
+Wire Wire Line
+	4800 3650 4800 3850
+Connection ~ 4800 3650
+$Comp
+L SA_Power:GND #PWR0302
+U 1 1 5C71E212
+P 4800 4250
+F 0 "#PWR0302" H 4800 4000 50  0001 C CNN
+F 1 "GND" H 4800 4100 39  0000 C CNB
+F 2 "" H 4800 4250 50  0001 C CNN
+F 3 "" H 4800 4250 50  0001 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4150 4800 4250
+$Comp
+L SA_Power:VBIAS #PWR0301
+U 1 1 5C71E219
+P 4800 3200
+F 0 "#PWR0301" H 4800 3050 50  0001 C CNN
+F 1 "VBIAS" H 4800 3350 39  0000 C CNB
+F 2 "" H 4800 3200 50  0001 C CNN
+F 3 "" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3300 4800 3250
+$Comp
+L SA_Power:GND #PWR0304
+U 1 1 5C71E220
+P 5750 3450
+F 0 "#PWR0304" H 5750 3200 50  0001 C CNN
+F 1 "GND" H 5750 3300 39  0000 C CNB
+F 2 "" H 5750 3450 50  0001 C CNN
+F 3 "" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SA_Power:+9.0VDC #PWR0305
+U 1 1 5C71E226
+P 5750 4050
+F 0 "#PWR0305" H 5750 3900 50  0001 C CNN
+F 1 "+9.0VDC" H 5750 4200 39  0000 C CNB
+F 2 "" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL061 U301
+U 1 1 5C71E22C
+P 5850 3750
+F 0 "U301" H 5850 4000 50  0000 L CNN
+F 1 "TL061" H 5850 3900 50  0000 L CNN
+F 2 "SA_Packages:DIP-8_W7.62mm_Socketed" H 5900 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 6000 3900 50  0001 C CNN
+	1    5850 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J301
+U 1 1 5C71E660
+P 3650 3600
+F 0 "J301" H 3650 3800 50  0000 C CNN
+F 1 "Conn_01x04" H 3650 3300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 3650 3600 50  0001 C CNN
+F 3 "~" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	-1   0    0    -1  
+$EndComp
+Text HLabel 3950 3500 2    50   Input ~ 0
++9VDC
+Text HLabel 3950 3600 2    50   Input ~ 0
+GND
+Text HLabel 3950 3700 2    50   Input ~ 0
+VREF
+Text HLabel 3950 3800 2    50   Input ~ 0
+VBIAS
+Wire Wire Line
+	3950 3500 3850 3500
+Wire Wire Line
+	3850 3600 3950 3600
+Wire Wire Line
+	3950 3700 3850 3700
+Wire Wire Line
+	3850 3800 3950 3800
+Text HLabel 5750 4050 0    50   Input ~ 0
++9VDC
+Text HLabel 5750 3450 0    50   Input ~ 0
+GND
+Text HLabel 5100 3850 0    50   Input ~ 0
+VREF
+Text HLabel 4750 3250 0    50   Input ~ 0
+VBIAS
+Wire Wire Line
+	4750 3250 4800 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	4800 3250 4800 3200
+$EndSCHEMATC

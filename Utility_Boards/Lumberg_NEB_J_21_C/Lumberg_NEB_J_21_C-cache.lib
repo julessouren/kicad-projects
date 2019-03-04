@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SA_Connectors_Lumberg_NEB_J_21_C
+#
+DEF SA_Connectors_Lumberg_NEB_J_21_C J 0 20 Y N 1 F N
+F0 "J" 200 200 39 H V C CNB
+F1 "SA_Connectors_Lumberg_NEB_J_21_C" 175 250 20 H V L CNN
+F2 "SA_Jacks_DC:Lumberg_NEB_J_21_C_FitsModel" 0 0 20 H I C CNN
+F3 "" 50 40 50 H I C CNN
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 -100 25 901 -901 0 1 10 F -130 -75 -130 -125
+A -130 -100 25 901 -901 0 1 10 N -130 -75 -130 -125
+S -200 -150 200 150 0 1 10 f
+S 145 -125 -130 -75 0 1 10 F
+P 2 0 1 10 50 90 75 65 N
+P 2 0 1 10 200 -100 150 -100 N
+P 4 0 1 10 200 0 50 0 50 90 25 65 N
+P 6 0 1 10 -150 100 -100 100 -50 50 0 100 100 100 200 100 N
+X ~ 1 300 -100 100 L 50 50 1 1 P
+X ~ 2 300 100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom
+#
+DEF SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom J 0 40 Y N 1 F N
+F0 "J" 0 100 39 H V C CNB
+F1 "SA_Connectors_PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -300 20 H V C CNN
+F2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Bottom" 0 -350 20 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -250 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
