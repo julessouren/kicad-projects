@@ -1071,21 +1071,6 @@ F 3 "~" H 9150 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J206
-U 1 1 5C93594B
-P 5900 5200
-F 0 "J206" H 5900 5300 50  0000 C CNN
-F 1 "Conn_01x02" H 5900 5000 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5900 5200 50  0001 C CNN
-F 3 "~" H 5900 5200 50  0001 C CNN
-	1    5900 5200
-	-1   0    0    -1  
-$EndComp
-Text HLabel 6100 5200 2    60   Input ~ 12
-LDR_IN
-Text HLabel 6100 5300 2    60   Input ~ 12
-LDR_OUT
-$Comp
 L Connector_Generic:Conn_01x03 J205
 U 1 1 5C935E56
 P 4150 5350
@@ -1147,4 +1132,8 @@ Wire Wire Line
 	4800 5200 4800 5450
 Wire Wire Line
 	4800 5450 4350 5450
+Text HLabel 6900 2000 2    60   Input ~ 12
+LDR_IN
+Text HLabel 7600 2000 2    60   Input ~ 12
+LDR_OUT
 $EndSCHEMATC
