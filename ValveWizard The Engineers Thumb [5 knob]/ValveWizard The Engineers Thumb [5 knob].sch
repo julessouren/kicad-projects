@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ValveWizard The Engineers Thumb [5 knob]-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -69,7 +70,7 @@ F 3 "~" H 4200 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SA_Amplifiers_Operational:TL072 U1
+L ValveWizard-The-Engineers-Thumb-[5-knob]-rescue:TL072-SA_Amplifiers_Operational U1
 U 1 1 5C77CA56
 P 4950 3800
 F 0 "U1" H 5000 4000 39  0000 C CNB
@@ -96,7 +97,7 @@ U 1 1 5C77CB10
 P 5750 3600
 F 0 "RV2" V 5575 3600 50  0000 C CNN
 F 1 "1M" V 5650 3600 50  0000 C CNN
-F 2 "SA_Potentiometers_THT:Alpha_Taiwan_9mm_Vertical" H 5750 3600 50  0001 C CNN
+F 2 "SA_Potentiometers_THT:Alpha_Taiwan_RV16AF-10_THT" H 5750 3600 50  0001 C CNN
 F 3 "~" H 5750 3600 50  0001 C CNN
 	1    5750 3600
 	1    0    0    -1  
@@ -300,7 +301,7 @@ U 1 1 5C78148B
 P 8900 4050
 F 0 "RV5" V 8725 4050 50  0000 C CNN
 F 1 "10k" V 8800 4050 50  0000 C CNN
-F 2 "SA_Potentiometers_THT:Alpha_Taiwan_9mm_Vertical" H 8900 4050 50  0001 C CNN
+F 2 "SA_Potentiometers_THT:Alpha_Taiwan_RV16AF-10_THT" H 8900 4050 50  0001 C CNN
 F 3 "~" H 8900 4050 50  0001 C CNN
 	1    8900 4050
 	1    0    0    1   
@@ -345,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4400 8900 4200
 $Comp
-L SA_Amplifiers_Operational:TL072 U2
+L ValveWizard-The-Engineers-Thumb-[5-knob]-rescue:TL072-SA_Amplifiers_Operational U2
 U 2 1 5C7843C6
 P 4950 2100
 F 0 "U2" H 5000 2300 39  0000 C CNB
@@ -361,7 +362,7 @@ U 1 1 5C784489
 P 4500 2200
 F 0 "RV1" V 4325 2200 50  0000 C CNN
 F 1 "1M" V 4400 2200 50  0000 C CNN
-F 2 "SA_Potentiometers_THT:Alpha_Taiwan_9mm_Vertical" H 4500 2200 50  0001 C CNN
+F 2 "SA_Potentiometers_THT:Alpha_Taiwan_RV16AF-10_THT" H 4500 2200 50  0001 C CNN
 F 3 "~" H 4500 2200 50  0001 C CNN
 	1    4500 2200
 	1    0    0    -1  
@@ -412,7 +413,7 @@ U 1 1 5C786CEE
 P 5850 2100
 F 0 "RV4" V 5675 2100 50  0000 C CNN
 F 1 "1M" V 5750 2100 50  0000 C CNN
-F 2 "SA_Potentiometers_THT:Alpha_Taiwan_9mm_Vertical" H 5850 2100 50  0001 C CNN
+F 2 "SA_Potentiometers_THT:Alpha_Taiwan_RV16AF-10_THT" H 5850 2100 50  0001 C CNN
 F 3 "~" H 5850 2100 50  0001 C CNN
 	1    5850 2100
 	0    1    1    0   
@@ -423,7 +424,7 @@ U 1 1 5C786D82
 P 5850 1600
 F 0 "RV3" V 5675 1600 50  0000 C CNN
 F 1 "1M" V 5750 1600 50  0000 C CNN
-F 2 "SA_Potentiometers_THT:Alpha_Taiwan_9mm_Vertical" H 5850 1600 50  0001 C CNN
+F 2 "SA_Potentiometers_THT:Alpha_Taiwan_RV16AF-10_THT" H 5850 1600 50  0001 C CNN
 F 3 "~" H 5850 1600 50  0001 C CNN
 	1    5850 1600
 	0    1    -1   0   
@@ -477,7 +478,7 @@ F 3 "~" H 6450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SA_Amplifiers_Operational:TL072 U2
+L ValveWizard-The-Engineers-Thumb-[5-knob]-rescue:TL072-SA_Amplifiers_Operational U2
 U 1 1 5C7921EF
 P 6800 2000
 F 0 "U2" H 6850 2200 39  0000 C CNB
@@ -488,7 +489,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6800 2000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L SA_Transistor_BJT:ON_Semi_2N3906TAR Q1
+L ValveWizard-The-Engineers-Thumb-[5-knob]-rescue:ON_Semi_2N3906TAR-SA_Transistor_BJT Q1
 U 1 1 5C793C38
 P 7400 2000
 F 0 "Q1" H 7325 2100 39  0000 C CNB
@@ -778,7 +779,7 @@ Wire Wire Line
 	1600 6750 1600 6700
 Connection ~ 1600 6750
 $Comp
-L SA_Amplifiers_Operational:TL072 U1
+L ValveWizard-The-Engineers-Thumb-[5-knob]-rescue:TL072-SA_Amplifiers_Operational U1
 U 2 1 5C7BC1A7
 P 2250 6650
 F 0 "U1" H 2300 6850 39  0000 C CNB
@@ -874,4 +875,5 @@ Text Notes 6950 6450 0    39   ~ 8
 Schematic source: http://www.freestompboxes.org/download/file.php?id=31228&t=1
 Text Notes 6200 4300 0    39   ~ 8
 Add no connects to unused OTA half
+NoConn ~ 7900 3000
 $EndSCHEMATC

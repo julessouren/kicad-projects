@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MXR-Phase-90-Script-rescue)(type Legacy)(uri "${KIPRJMOD}/MXR Phase 90 Script-rescue.lib")(options "")(descr ""))
+)
