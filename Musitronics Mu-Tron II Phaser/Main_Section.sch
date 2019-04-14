@@ -362,7 +362,7 @@ FX_OUT
 Wire Wire Line
 	4400 4250 4150 4250
 Wire Wire Line
-	4150 4250 4150 3550
+	4150 4250 4150 4000
 Wire Wire Line
 	4150 3550 4250 3550
 Wire Wire Line
@@ -371,17 +371,17 @@ Connection ~ 4150 4000
 Wire Wire Line
 	4700 4000 4950 4000
 Wire Wire Line
-	4950 2350 4950 4250
+	4950 2350 4950 3450
 Wire Wire Line
 	4950 4250 4700 4250
 Connection ~ 4950 4000
 Wire Wire Line
-	4250 3350 3850 3350
+	4250 3350 3950 3350
 Wire Wire Line
 	3950 3450 3950 3350
 Connection ~ 3950 3350
 Wire Wire Line
-	3550 3350 3350 3350
+	3550 3350 3450 3350
 Wire Wire Line
 	3450 3450 3450 3350
 Connection ~ 3450 3350
@@ -391,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3550 6000 3550
 Wire Wire Line
-	6000 3450 6000 4250
+	6000 3450 6000 3550
 Wire Wire Line
 	6000 4250 6250 4250
 Connection ~ 6000 3550
@@ -408,16 +408,16 @@ Connection ~ 6800 4000
 Wire Wire Line
 	7950 3550 7850 3550
 Wire Wire Line
-	7750 4250 8100 4250
+	7750 4250 7850 4250
 Wire Wire Line
 	8100 4000 7850 4000
 Connection ~ 7850 4000
 Wire Wire Line
 	8400 4000 8650 4000
 Wire Wire Line
-	8650 3450 8650 4250
+	8650 3450 8650 4000
 Wire Wire Line
-	8550 3450 8950 3450
+	8550 3450 8650 3450
 Wire Wire Line
 	8650 4250 8400 4250
 Connection ~ 8650 4000
@@ -432,7 +432,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 2900 7200 3600
 Wire Wire Line
-	5900 2900 7200 2900
+	5900 2900 6000 2900
 Wire Wire Line
 	6000 3350 6100 3350
 Wire Wire Line
@@ -443,7 +443,7 @@ Connection ~ 7850 4250
 Wire Wire Line
 	7850 3350 7950 3350
 Wire Wire Line
-	7750 2350 8100 2350
+	7750 2350 7850 2350
 Wire Wire Line
 	7850 2350 7850 3350
 Wire Wire Line
@@ -452,21 +452,21 @@ Wire Wire Line
 	8500 2350 8500 2900
 Connection ~ 7850 2350
 Wire Wire Line
-	6000 2650 6000 3350
+	6000 2650 6000 2900
 Connection ~ 6000 2900
 Wire Wire Line
 	6000 2650 5900 2650
 Wire Wire Line
 	5600 2650 5500 2650
 Wire Wire Line
-	5500 2650 5500 3000
+	5500 2650 5500 2900
 Wire Wire Line
 	5500 2900 5600 2900
 Connection ~ 5500 2900
 Wire Wire Line
 	4950 2350 6450 2350
 Wire Wire Line
-	4850 3450 5350 3450
+	4850 3450 4950 3450
 Wire Wire Line
 	6750 2350 7450 2350
 $Comp
@@ -510,9 +510,9 @@ LDR_IN
 Text HLabel 7850 4650 3    60   Input ~ 0
 LDR_OUT
 Wire Wire Line
-	7850 3550 7850 4350
+	7850 3550 7850 4000
 Wire Wire Line
-	6800 3450 6800 4650
+	6800 3450 6800 4000
 $Comp
 L power:GND #PWR0413
 U 1 1 5A77C122
@@ -573,7 +573,7 @@ $EndComp
 Wire Wire Line
 	2950 3450 2950 3350
 Wire Wire Line
-	2850 3350 3050 3350
+	2850 3350 2950 3350
 $Comp
 L power:GND #PWR0401
 U 1 1 5A792AD1
@@ -588,4 +588,56 @@ $EndComp
 Connection ~ 2950 3350
 Text Notes 8100 4600 0    60   Italic 0
 680p || 150p = 830p
+Wire Wire Line
+	4150 4000 4150 3550
+Wire Wire Line
+	4950 4000 4950 4250
+Wire Wire Line
+	3950 3350 3850 3350
+Wire Wire Line
+	3450 3350 3350 3350
+Wire Wire Line
+	4950 3450 4950 4000
+Wire Wire Line
+	4950 3450 5350 3450
+Wire Wire Line
+	6000 3550 6000 4000
+Wire Wire Line
+	6000 4000 6000 4250
+Wire Wire Line
+	6800 4000 6800 4250
+Wire Wire Line
+	7850 4000 7850 4250
+Wire Wire Line
+	8650 4000 8650 4250
+Wire Wire Line
+	8650 3450 8850 3450
+Wire Wire Line
+	8850 3450 8950 3450
+Wire Wire Line
+	7850 4250 8100 4250
+Wire Wire Line
+	7850 4250 7850 4350
+Wire Wire Line
+	7850 2350 8100 2350
+Wire Wire Line
+	6000 2900 7200 2900
+Wire Wire Line
+	6000 2900 6000 3350
+Wire Wire Line
+	5500 2900 5500 3000
+Wire Wire Line
+	6800 4250 6800 4650
+Wire Wire Line
+	2950 3350 3050 3350
+Text Notes 3650 4100 0    60   Italic 12
+33/47 pF
+Text Notes 2950 3200 0    60   Italic 12
+47/100 nF
+Text Notes 5350 2600 0    60   Italic 12
+3 nF
+Text Notes 7050 4500 0    60   Italic 12
+B/A 10k
+Text Notes 5450 1700 0    60   Italic 12
+Connections:\n\n- VDD\n- VEE\n- GND\n\nFeedback pot\n\n- LDR IN/OUT\n- FX IN/OUT
 $EndSCHEMATC

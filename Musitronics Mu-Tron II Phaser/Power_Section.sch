@@ -111,11 +111,11 @@ Wire Wire Line
 Wire Wire Line
 	6250 3750 6250 3950
 Wire Wire Line
-	6150 3950 6400 3950
+	6150 3950 6250 3950
 Wire Wire Line
 	6300 4350 6300 4250
 Wire Wire Line
-	6150 4250 6400 4250
+	6150 4250 6300 4250
 Connection ~ 6300 4250
 Connection ~ 6250 3950
 Wire Wire Line
@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4700 5650 4250
 Wire Wire Line
-	4950 4150 5650 4150
+	4950 4150 5250 4150
 Connection ~ 5250 4150
 $Comp
 L power:VCC #PWR0505
@@ -239,6 +239,14 @@ Wire Wire Line
 Wire Wire Line
 	5250 3650 4950 3650
 Wire Wire Line
-	4950 3550 4950 3750
+	4950 3550 4950 3650
 Connection ~ 4950 3650
+Wire Wire Line
+	6300 4250 6400 4250
+Wire Wire Line
+	6250 3950 6400 3950
+Wire Wire Line
+	5250 4150 5650 4150
+Wire Wire Line
+	4950 3650 4950 3750
 $EndSCHEMATC
