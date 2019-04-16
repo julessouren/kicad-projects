@@ -256,11 +256,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT
+# ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue
 #
-DEF ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT Q 0 0 Y N 1 F N
+DEF ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue Q 0 0 Y N 1 F N
 F0 "Q" -75 100 39 H V C CNB
-F1 "ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT" -75 150 20 H V C CNB
+F1 "ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_ON_Semi_2N3906TAR-SA_Transistor_BJT-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue" -75 150 20 H V C CNB
 F2 "SA_Transistors_BJT_THT:ON_Semi_2N3906TAR_TO-92-3-P2.54" 0 0 20 H I C CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -278,11 +278,11 @@ X C 3 100 200 100 D 20 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational
+# ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue
 #
-DEF ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational U 0 5 Y Y 3 L N
+DEF ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue U 0 5 Y Y 3 L N
 F0 "U" 50 200 39 H V C CNB
-F1 "ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational" 50 -175 20 H V C CNN
+F1 "ValveWizard-The-Engineers-Thumb-[5-knob]-rescue_TL072-SA_Amplifiers_Operational-ValveWizard-The-Engineers-Thumb-[5-knob]-rescue" 50 -175 20 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
