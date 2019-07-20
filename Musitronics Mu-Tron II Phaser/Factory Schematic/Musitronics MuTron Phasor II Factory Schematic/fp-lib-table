@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Resistors)(type KiCad)(uri C:/Users/jules/Desktop/GitHub/kicad-library/modules/Resistors.pretty)(options "")(descr ""))
+)
