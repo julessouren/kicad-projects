@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Musitronics-MuTron-Phasor-II-Factory-Schematic-rescue)(type Legacy)(uri "${KIPRJMOD}/Musitronics MuTron Phasor II Factory Schematic-rescue.lib")(options "")(descr ""))
+  (lib (name Musitronics-MuTron-Phasor-II-Factory-Schematic-Final-rescue)(type Legacy)(uri "${KIPRJMOD}/Musitronics MuTron Phasor II Factory Schematic Final-rescue.lib")(options "")(descr ""))
+  (lib (name Musitronics-MuTron-Phasor-II-Factory-Schematic-Rescue-rescue)(type Legacy)(uri "${KIPRJMOD}/Musitronics MuTron Phasor II Factory Schematic Rescue-rescue.lib")(options "")(descr ""))
+)
