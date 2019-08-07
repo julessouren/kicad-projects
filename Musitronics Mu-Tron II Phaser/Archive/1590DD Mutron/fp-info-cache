@@ -1,4 +1,4 @@
-1229750932651280
+1231315972266764
 Amplifiers_Operational_SMD
 Texas_Instruments_RC4558D
 
@@ -5494,6 +5494,13 @@ ON_Semi_MCH6341-TL-W
 0
 6
 3
+Voltage_Converters_DC_DC_THT
+MAX1044CPA
+
+
+0
+8
+8
 Voltage_Regulators_SMD
 ON_Semi_NCP1117LPST50T3G
 
