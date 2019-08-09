@@ -286,4 +286,86 @@ Text Notes 6950 7150 0    200  ~ 40
 #150-000\nBOOST CONVERTER PCBA
 Text Notes 6950 6300 0    50   Italic 10
 MAKE ALTERNATE LAYOUT FOR LT1054 +-12V OR HIGHER
+$Comp
+L SA_Connectors:PinHeader_1x03_P2.54mm_Vertical_Top J1
+U 1 1 5D4B385D
+P 8100 3600
+F 0 "J1" H 8180 3518 39  0000 L CNB
+F 1 "PinHeader_1x03_P2.54mm_Vertical_Top" H 8180 3459 20  0000 L CNN
+F 2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Top" H 8100 3250 20  0001 C CNN
+F 3 "~" H 8100 3500 50  0001 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SA_Connectors:PinHeader_1x03_P2.54mm_Vertical_Top J2
+U 1 1 5D4B5A67
+P 8100 4100
+F 0 "J2" H 8180 4018 39  0000 L CNB
+F 1 "PinHeader_1x03_P2.54mm_Vertical_Top" H 8180 3959 20  0000 L CNN
+F 2 "SA_Connectors_Pin_Headers_THT:PinHeader_1x03_P2.54mm_Vertical_Top" H 8100 3750 20  0001 C CNN
+F 3 "~" H 8100 4000 50  0001 C CNN
+	1    8100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D4B5F3E
+P 7800 3500
+F 0 "#PWR?" H 7800 3350 50  0001 C CNN
+F 1 "VCC" H 7817 3673 50  0000 C CNN
+F 2 "" H 7800 3500 50  0001 C CNN
+F 3 "" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D4B6463
+P 7600 3500
+F 0 "#PWR?" H 7600 3350 50  0001 C CNN
+F 1 "VSS" H 7617 3673 50  0000 C CNN
+F 2 "" H 7600 3500 50  0001 C CNN
+F 3 "" H 7600 3500 50  0001 C CNN
+	1    7600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4B6703
+P 7400 3500
+F 0 "#PWR?" H 7400 3250 50  0001 C CNN
+F 1 "GND" H 7405 3327 50  0000 C CNN
+F 2 "" H 7400 3500 50  0001 C CNN
+F 3 "" H 7400 3500 50  0001 C CNN
+	1    7400 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 3600 7800 3600
+Wire Wire Line
+	7800 3600 7800 3500
+Wire Wire Line
+	7900 3700 7600 3700
+Wire Wire Line
+	7600 3700 7600 3500
+Wire Wire Line
+	7900 3800 7400 3800
+Wire Wire Line
+	7400 3800 7400 3500
+Wire Wire Line
+	7900 4100 7800 4100
+Wire Wire Line
+	7800 4100 7800 3600
+Connection ~ 7800 3600
+Wire Wire Line
+	7900 4200 7600 4200
+Wire Wire Line
+	7600 4200 7600 3700
+Connection ~ 7600 3700
+Wire Wire Line
+	7900 4300 7400 4300
+Wire Wire Line
+	7400 4300 7400 3800
+Connection ~ 7400 3800
 $EndSCHEMATC

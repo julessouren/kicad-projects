@@ -406,26 +406,6 @@ Wire Wire Line
 	3650 4400 3650 4150
 Connection ~ 4350 4400
 $Comp
-L Relays:Kemet_EA2-5SNJ Ka1
-U 1 1 618D0F88
-P 7350 3600
-F 0 "Ka1" H 7450 3750 50  0000 L CNB
-F 1 "Kemet_EA2-5SNJ" H 7500 3650 50  0000 L CNN
-F 2 "Relays_THT:Kemet_EA2-SNJ" H 7550 3500 50  0001 L CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7001_EA2_EB2.pdf" H 7550 3700 50  0001 C CNN
-	1    7350 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 3450 7350 3400
-Wire Wire Line
-	7350 3400 6900 3400
-Wire Wire Line
-	7350 3750 7350 4400
-Wire Wire Line
-	7350 4400 6500 4400
-Connection ~ 6500 4400
-$Comp
 L Capacitors:C Cs5
 U 1 1 6192FE3C
 P 1500 7100
@@ -499,64 +479,8 @@ Wire Wire Line
 Connection ~ 1750 6900
 Text Notes 6950 7150 0    200  ~ 40
 #220-000\nSWITCHING PCBA
-$Comp
-L Relays:Kemet_EA2-5SNJ Ka1
-U 2 1 61ABA03E
-P 6700 2500
-F 0 "Ka1" H 6850 2550 50  0000 L CNB
-F 1 "Kemet_EA2-5SNJ" H 7112 2488 20  0001 L CNN
-F 2 "Relays_THT:Kemet_EA2-SNJ" H 6900 2400 50  0001 L CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7001_EA2_EB2.pdf" H 6900 2600 50  0001 C CNN
-	2    6700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relays:Kemet_EA2-5SNJ Ka1
-U 3 1 61ABBB16
-P 7300 2500
-F 0 "Ka1" H 7450 2550 50  0000 L CNB
-F 1 "Kemet_EA2-5SNJ" H 7712 2488 50  0001 L CNN
-F 2 "Relays_THT:Kemet_EA2-SNJ" H 7500 2400 50  0001 L CNN
-F 3 "https://content.kemet.com/datasheets/KEM_R7001_EA2_EB2.pdf" H 7500 2600 50  0001 C CNN
-	3    7300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0141
-U 1 1 61B76B25
-P 6350 2300
-F 0 "#PWR0141" H 6350 2050 50  0001 C CNN
-F 1 "GND" H 6355 2127 50  0000 C CNN
-F 2 "" H 6350 2300 50  0001 C CNN
-F 3 "" H 6350 2300 50  0001 C CNN
-	1    6350 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2300 6350 2250
-Wire Wire Line
-	6350 2250 6600 2250
-Wire Wire Line
-	6600 2250 6600 2300
-Text GLabel 6700 2650 3    50   Input ~ 0
-SEND
-Text GLabel 7400 2200 1    50   Input ~ 0
-RETURN
-Wire Wire Line
-	7400 2200 7400 2300
-Text GLabel 7300 2650 3    50   Input ~ 0
-OUTPUT
-Text GLabel 7200 2200 1    50   Input ~ 0
-INPUT
-Wire Wire Line
-	7200 2200 7200 2250
-Wire Wire Line
-	7200 2250 6800 2250
-Connection ~ 7200 2250
-Wire Wire Line
-	7200 2250 7200 2300
-Wire Wire Line
-	6800 2250 6800 2300
+Text GLabel 7100 3400 2    50   Input ~ 0
+TO_RELAY_PIN_10
 Wire Notes Line
 	700  7650 5000 7650
 Wire Notes Line
@@ -601,4 +525,8 @@ Wire Wire Line
 	4350 4400 5750 4400
 Wire Wire Line
 	5750 4500 5750 4400
+Wire Wire Line
+	7100 3400 6900 3400
+Text Notes 8000 4200 0    50   ~ 0
+Vcc\nVss\nGND\nSW1\nSW2\nRELAY\nLED
 $EndSCHEMATC
