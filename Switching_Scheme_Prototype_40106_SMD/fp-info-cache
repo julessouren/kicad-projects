@@ -1,4 +1,4 @@
-1223529000647145
+1229750932651280
 Amplifiers_Operational_SMD
 Texas_Instruments_RC4558D
 
@@ -853,6 +853,13 @@ Equivalent to Neutrik NRJ6HM-1
 0
 7
 7
+Connectors_Jacks_DC_2.1
+Lumberg_NEB_J_21C
+
+
+0
+3
+3
 Diodes_Rectifier_SMD
 Rectron_FM4007W-W
 
@@ -4920,6 +4927,27 @@ Texas_Instruments_SN74LVC3G14DCTR_SM8_DCT_SSOP-8
 0
 8
 8
+SA_Connectors_Jacks_DC
+Jack_DC
+$KICAD_MYGITHUBDATASHEETS$\Connectors_Jacks_DC\A-2237.pdf
+
+0
+3
+3
+SA_Connectors_Jacks_DC
+Jack_DC_copy
+$KICAD_MYGITHUBDATASHEETS$\Connectors_Jacks_DC\A-2237.pdf
+
+0
+3
+3
+SA_Connectors_Jacks_DC
+Jack_DC_Mirrored
+$KICAD_MYGITHUBDATASHEETS$\Connectors_Jacks_DC\A-2237.pdf
+
+0
+3
+3
 SA_Jacks_Audio
 Amphenol_ACJS-MHOM
 
